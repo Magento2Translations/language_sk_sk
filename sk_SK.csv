@@ -41,6 +41,7 @@ Close,Zavrieť,module,Magento_AdminNotification
 "We can't find the role for the user you wanted.","Nemôžeme nájsť ulohy používateľa, ktorého ste chceli.",module,Magento_Authorization
 "You created the order.","Vytvorili ste objednávku.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","Nemôžeme spracovať vašu objednávku práve teraz. Skúste znova neskôr.",module,Magento_Authorizenet
+"Cannot place order.","Objednávku nemožno vytvoriť.",module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.","Táto platba nefunguje, pretože nemôžeme nájsť túto objednávku.",module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Niečo sa pokazilo: zaplatená suma neodpovedá hodnote objednávky. Opravte to a skúste to znova.",module,Magento_Authorizenet
 "Invalid Form Key. Please refresh the page.","Neplatný kľúč Formuláru. Prosím refrešujte stránku.",module,Magento_Backend
