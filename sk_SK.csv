@@ -45,7 +45,7 @@ Close,Zavrieť,module,Magento_AdminNotification
 "This payment didn't work out because we can't find this order.","Táto platba nefunguje, pretože nemôžeme nájsť túto objednávku.",module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Niečo sa pokazilo: zaplatená suma neodpovedá hodnote objednávky. Opravte to a skúste to znova.",module,Magento_Authorizenet
 "Invalid Form Key. Please refresh the page.","Neplatný kľúč Formuláru. Prosím refrešujte stránku.",module,Magento_Backend
-"We couldn't find any records.","Nemohli sme nájsť žiadne záznamy.",module,Magento_Backend
+"We couldn't find any records.","Nedá sa nájsť žiadny záznam.",module,Magento_Backend
 "Specified cache type(s) don't exist: %1","Uvedené typy cache neexistujú: %1",module,Magento_Backend
 "We can't refresh lifetime statistics.","Nepodorailo sa obnoviť celkové štatistiky.",module,Magento_Backend
 "We can't create a backup right now. Please try again later.","Nemôže vytvoriť zálohu práve teraz. Skúste znova neskôr.",module,Magento_Backend
@@ -173,6 +173,8 @@ Qty,Množstvo,module,Magento_CatalogInventory
 "We can't rebuild the index for an undefined product.","Nemožeme vygenerovať nové indexy pre neznámy produkt.",module,Magento_CatalogRule
 Home,Domov,module,Magento_CatalogSearch
 "We can't find any items matching these search criteria.","Nemôžeme nájsť žiadne položky vyhovujúce zadaným kritériám.",module,Magento_CatalogSearch
+"Create Permanent Redirect for old URL","Pre starú URL vytvoriť trvalé presmerovanie",module,Magento_CatalogUrlRewrite
+"Conditions Combination","Kombinácie podmienok",module,Magento_CatalogWidget
 Root,Hlavný,module,Magento_Catalog
 Delete,Zmazať,module,Magento_Catalog
 Save,Uložiť,module,Magento_Catalog
@@ -700,6 +702,7 @@ Show,Zobraziť,module,Magento_Catalog
 Loading...,Načítávanie...,module,Magento_Catalog
 "* Required Fields","* Povinné políčka",module,Magento_Catalog
 Availability,Dostupnosť,module,Magento_Catalog
+"Shopping Cart","Nákupný košík",module,Magento_Checkout
 "We can't add this item to your shopping cart right now.","Práve teraz nieje možné pridať položku do vašeho košíka.",module,Magento_Checkout
 "We can't remove the item.","Nemôžeme odstrániť položku.",module,Magento_Checkout
 "We can't update the item right now.","Položku nebolo možné aktualizovať.",module,Magento_Checkout
@@ -1094,8 +1097,13 @@ Template,Šablóna,module,Magento_Email
 "Are you sure you want to strip tags?","Naozaj chcete odstrániť Tagy?",module,Magento_Email
 "Are you sure you want to delete this template?","Naozaj chcete odstrániť túto šablónu?",module,Magento_Email
 "The template did not load. Please review the log for details.","Šablóna nebola načítaná. Viac informácii sa dozviete zo systémoveho zapisu.",module,Magento_Email
+"Items in Your Shopping Cart","Položky vo Vašom košíku",module,Magento_Paypal
+"Edit Shopping Cart","Upraviť košík",module,Magento_Paypal
 "Cart %1 doesn't contain products","Košík %1 neobsahuje produkty",module,Magento_Quote
 "Cart %1 doesn't contain item  %2","Košík %1 neobsahuje produkt %2",module,Magento_Quote
+"Shopping Cart","Nákupný košík",module,Magento_Reports
+"Shopping Cart","Nákupný košík",module,Magento_Sales
+"We can't add this item to your shopping cart right now.","Táto položka sa nedá momentálne pridať do vášho košíka.",module,Magento_Sales
 "We can't find a search term to delete.","Nemôžeme nájsť hľadaný výraz pre zmazanie.",module,Magento_Search
 "Your search query can't be longer than %1, so we shortened your query.","Hľadaný reťazec nemôže mať viac znakov ako %1, takže sme skrátili Váš reťazec.",module,Magento_Search
 "Condition type ""%1"" is not allowed","Podmienka typu ""%1"" nie je povolená",module,Magento_Ui
@@ -1499,6 +1507,7 @@ Action,Akcia,module,Magento_Email
 "Header Template","Šablóna hlavičky stránky",module,Magento_Email
 "Email template chosen based on theme fallback, when the ""Default"" option is selected.","Vybratá šablóna e-mailu v závislosti na záložnom motíve ak je vybratá možnosť ""Predvolený"".",module,Magento_Email
 "Footer Template","Šablóna pätičky stránky",module,Magento_Email
+"Display on Shopping Cart","Zobraziť v košíku",module,Magento_Paypal
 "Log JS Errors to Session Storage","Zaznamenať chyby JS aby úložiska Sesssion",module,Magento_Ui
 "Log JS Errors to Session Storage Key","Zaznamenať chyby JS aby kľuča úložiska Sesssion",module,Magento_Ui
 Action,Akcia,module,Magento_Ui
