@@ -37,6 +37,7 @@ Close,Zavrieť,module,Magento_AdminNotification
 "Unable to delete store. Please, try again later.","Nie je možné odstrániť obchod. Prosím, skúste znova neskôr.",module,Magento_Backend
 "Unable to delete store view. Please, try again later.","Nie je možné odstrániť zobrazenie obchodu. Prosím, skúste znova neskôr.",module,Magento_Backend
 "Unable to delete website. Please, try again later.","Nie je možné odstrániť webovú stránku. Prosím, skúste znova neskôr.",module,Magento_Backend
+"Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","Copyright&copy; %1 Magento Commerce Inc. Všetky práva vyhradené.",module,Magento_Backend
 "Themes JavaScript and CSS files combined to one file.","Témy JavaScript a CSS súborov sa zlúčili do jedného súboru.",module,Magento_Backend
 "System Backup","Záloha systému",module,Magento_Backup
 "Database and Media Backup","Záloha Databáze a multimédií",module,Magento_Backup
@@ -77,6 +78,10 @@ Database,Databáza,module,Magento_Backup
 "Create Backup","Vytvoriť zálohu",module,Magento_Backup
 Country,Krajina,module,Magento_Braintree
 "Stored Card","Uložená karta",module,Magento_Braintree
+"Credit card successfully added","Platobná karta bola úspešne pridaná",module,Magento_Braintree
+"Delete Credit Card","Odstránit platobnú kartu",module,Magento_Braintree
+"Edit Credit Card","Upraviť platobnú kartu",module,Magento_Braintree
+"My Credit Cards","Moje platobné karty",module,Magento_Braintree
 "Percent Discount","Percentuálna zľava",module,Magento_Bundle
 Always,Vždy,module,Magento_Captcha
 "Incorrect CAPTCHA","Nesprávna CAPTCHA",module,Magento_Captcha
@@ -479,6 +484,7 @@ Show,Zobraziť,module,Magento_Catalog
 Loading...,Načítávanie...,module,Magento_Catalog
 "* Required Fields","* Povinné políčka",module,Magento_Catalog
 Availability,Dostupnosť,module,Magento_Catalog
+"Shopping Cart","Nákupný košík",module,Magento_Checkout
 "Edit Block '%1'","Upraviť blok ""%1""",module,Magento_Cms
 "Block Information","Informácie bloku",module,Magento_Cms
 "Edit Page '%1'","Upraviť stránku ""%1""",module,Magento_Cms
@@ -737,6 +743,10 @@ City,Mesto,module,Magento_Email
 "Invalid sender data","Neplatné údaje odosieľateľa",module,Magento_Email
 "Load default template","Načítať predvolenú šablónu",module,Magento_Email
 Template,Šablóna,module,Magento_Email
+"Items in Your Shopping Cart","Položky vo Vašom košíku",module,Magento_Paypal
+"Edit Shopping Cart","Upraviť košík",module,Magento_Paypal
+"Shopping Cart","Nákupný košík",module,Magento_Reports
+"Shopping Cart","Nákupný košík",module,Magento_Sales
 "Shop By","Nakupovať podľa",theme,frontend/Magento/luma
 Cancel,Zrušiť,module,Magento_Catalog
 "Configure Product","Konfigurácia produktu",module,Magento_Catalog
@@ -759,6 +769,7 @@ Actions,Akcie,module,Magento_AdminNotification
 "Design Theme","Dizajn Motívu",module,Magento_Backend
 "User-Agent Exceptions","User-Agent výnimky",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","Vyhľadať reťazec v hlavičke user-agent klienta, a prejsť na špecifický motív dizajnu k danému prehľadači.",module,Magento_Backend
+"If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","Pri veľkom počte stránok v katalógu je vhodné umožniť rýchly posun v zobrazených odkazoch.",module,Magento_Backend
 "Alternative text for previous link in pagination menu. If empty, default arrow image will used.","Alternatívny text pre predchádzajúci odkaz v stránkovani. Nechajte prázdne pre použitie predvoleného obrázku(šípky).",module,Magento_Backend
 "Alternative text for next link in pagination menu. If empty, default arrow image will used.","Alternatívny text pre následujúci odkaz v stránkovani. Nechajte prázdne pre použitie predvoleného obrázku(šípky).",module,Magento_Backend
 "Enable Javascript Bundling","Povoliť zoskupenie Javascriptu",module,Magento_Backend
