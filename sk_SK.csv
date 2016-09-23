@@ -275,6 +275,7 @@ Empty,Prázdne,module,Magento_Catalog
 "Save & Close","Uložiť a Zavrieť",module,Magento_Catalog
 Attributes,Atribúty,module,Magento_Catalog
 Change,Zmeniť,module,Magento_Catalog
+"Advanced Inventory","Pokročilé sledovánie zásob",module,Magento_Catalog
 Websites,"Webové stránky",module,Magento_Catalog
 "Products Information","Informácie o produktoch",module,Magento_Catalog
 "Create Category","Vytvoriť kategóriu",module,Magento_Catalog
@@ -553,6 +554,7 @@ Search,Vyhľadávanie,module,Magento_Catalog
 "Multiple Select","Viacnásobný výber",module,Magento_Catalog
 Dropdown,"Rozbaľovací zoznam",module,Magento_Catalog
 "%1 doesn't extend \Magento\Framework\Filter\Template","%1 nieje rozšírením triedy \Magento\Framework\Filter\Template",module,Magento_Catalog
+"As low as","Už od",module,Magento_Catalog
 message,správa,module,Magento_Catalog
 Images,Obrázky,module,Magento_Catalog
 Select...,Vyberte...,module,Magento_Catalog
@@ -563,7 +565,10 @@ Select...,Vyberte...,module,Magento_Catalog
 To,Do,module,Magento_Catalog
 Done,Hotovo,module,Magento_Catalog
 "Add Selected","Pridať vybrané",module,Magento_Catalog
+"Select Attribute","Vyberte atribút",module,Magento_Catalog
+"Create New Attribute","Vytvoriť nový atribút",module,Magento_Catalog
 "Customizable Options","Prispôsobiteľné možnosti",module,Magento_Catalog
+"Custom options let customers choose the product variations they want.","Vlastné možnosti umožňujú nakupujúcim vybrať variácie produktu.",module,Magento_Catalog
 "Add Option","Pridaj možnosť",module,Magento_Catalog
 "New Option","Nová možnosť",module,Magento_Catalog
 "Select Product","Vyberte produkt",module,Magento_Catalog
@@ -675,7 +680,7 @@ Role,Úloha,module,Magento_Catalog
 "Add to Cart","Pridať do košíka",module,Magento_Catalog
 "In stock",Skladom,module,Magento_Catalog
 "Out of stock",Vypredané,module,Magento_Catalog
-"Add to Wish List","Pridať do zoznamu prianí",module,Magento_Catalog
+"Add to Wish List","K obľúbeným",module,Magento_Catalog
 "You have no items to compare.","Nemáte žiadne položky na porovnanie.",module,Magento_Catalog
 "Remove This Item","Odstrániť túto položku",module,Magento_Catalog
 Compare,Porovnať,module,Magento_Catalog
@@ -684,7 +689,7 @@ Prev,Predch.,module,Magento_Catalog
 Next,Nasledujúca,module,Magento_Catalog
 "We can't find products matching the selection.","Zvolenému výberu neodpovedá žiadny produkt.",module,Magento_Catalog
 "Learn More","Zistiť viac",module,Magento_Catalog
-"Add to Compare","Pridať do porovnania",module,Magento_Catalog
+"Add to Compare",Porovnať,module,Magento_Catalog
 "We found other products you might like!","Našli sme ďalšie produkty o ktoré by ste mohli mať záujem!",module,Magento_Catalog
 "More Choices:","Viac možností:",module,Magento_Catalog
 "Check items to add to the cart or","Zaškrtnite položky pre pridanie do košíka alebo",module,Magento_Catalog
@@ -1461,6 +1466,7 @@ Image,Obrázok,module,Magento_Catalog
 "Image Position","Pozícia obrázku",module,Magento_Catalog
 Small,Malé,module,Magento_Catalog
 "Attribute Label","štítok atribútu",module,Magento_Catalog
+Values,Hodnoty,module,Magento_Catalog
 System,Systém,module,Magento_Catalog
 "All Store Views","Všetky pohľady obchodu",module,Magento_Catalog
 "Delete items","Odstrániť položky",module,Magento_Catalog
