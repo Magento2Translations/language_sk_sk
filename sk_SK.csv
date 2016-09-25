@@ -216,6 +216,7 @@ Empty,Prázdne,module,Magento_Catalog
 "Save & Close","Uložiť a Zavrieť",module,Magento_Catalog
 Attributes,Atribúty,module,Magento_Catalog
 Change,Zmeniť,module,Magento_Catalog
+"Advanced Inventory","Pokročilé sledovánie zásob",module,Magento_Catalog
 Websites,"Webové stránky",module,Magento_Catalog
 "Products Information","Informácie o produktoch",module,Magento_Catalog
 "Category Name","Názov kategórie",module,Magento_Catalog
@@ -468,7 +469,7 @@ Compare,Porovnať,module,Magento_Catalog
 "Clear All","Vymazať všetky",module,Magento_Catalog
 Prev,Predch.,module,Magento_Catalog
 Next,Nasledujúca,module,Magento_Catalog
-"Add to Compare","Pridať do porovnania",module,Magento_Catalog
+"Add to Compare",Porovnať,module,Magento_Catalog
 "Learn More","Zistiť viac",module,Magento_Catalog
 "More Choices:","Viac možností:",module,Magento_Catalog
 "Check items to add to the cart or","Zaškrtnite položky pre pridanie do košíka alebo",module,Magento_Catalog
