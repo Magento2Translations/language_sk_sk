@@ -485,6 +485,7 @@ Show,Zobraziť,module,Magento_Catalog
 Loading...,Načítávanie...,module,Magento_Catalog
 "* Required Fields","* Povinné políčka",module,Magento_Catalog
 Availability,Dostupnosť,module,Magento_Catalog
+"Terms and Conditions","Zmluvné podmienky",module,Magento_CheckoutAgreements
 "Shopping Cart","Nákupný košík",module,Magento_Checkout
 "Edit Block '%1'","Upraviť blok ""%1""",module,Magento_Cms
 "Block Information","Informácie bloku",module,Magento_Cms
