@@ -378,6 +378,7 @@ Catalog,Katalóg,module,Magento_Catalog
 "An attribute with this code already exists.","Atribút s týmto kódom už existuje.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","Atribút s rovnakým kódom (%1) už existuje.",module,Magento_Catalog
 "You duplicated the product.","Vytvorili ste duplikát produktu.",module,Magento_Catalog
+"This product doesn't exist.","Takýto výrobok neexistuje.",module,Magento_Catalog
 Products,Produkty,module,Magento_Catalog
 "A group with the same name already exists.","Skupina s rovnakým názvom už existuje.",module,Magento_Catalog
 "Something went wrong while saving this group.","Pri ukladaní tejto skupiny došlo k chybe.",module,Magento_Catalog
@@ -707,6 +708,7 @@ Show,Zobraziť,module,Magento_Catalog
 Loading...,Načítávanie...,module,Magento_Catalog
 "* Required Fields","* Povinné políčka",module,Magento_Catalog
 Availability,Dostupnosť,module,Magento_Catalog
+"Terms and Conditions","Zmluvné podmienky",module,Magento_CheckoutAgreements
 "Shopping Cart","Nákupný košík",module,Magento_Checkout
 "We can't add this item to your shopping cart right now.","Práve teraz nieje možné pridať položku do vašeho košíka.",module,Magento_Checkout
 "We can't remove the item.","Nemôžeme odstrániť položku.",module,Magento_Checkout
@@ -721,6 +723,7 @@ Availability,Dostupnosť,module,Magento_Catalog
 "We can't upload the file right now.","Práve teraz nieje možné nahrať súbor.",module,Magento_Cms
 "We can't delete root directory %1 right now.","Práve teraz nieje možné odstrániť koreňový adresár %1.",module,Magento_Cms
 "Are you sure you wan't to delete a ${ $.$data.title } record?","Ste si istý, že chcete odstrániť záznam ${ $.$data.title }?",module,Magento_Cms
+"Default Config","Predvolená konfigurácia",module,Magento_Config
 "Sorry, we haven't installed the base currency you selected.","Je nám ľúto, ale zvolená základná mena nebola nainštalovaná.",module,Magento_Config
 "We can't save the Cron expression.","Nieje možné uložiť Cron výraz.",module,Magento_Config
 "Sorry, we haven't installed the default display currency you selected.","Je nám ľúto, ale zvolená preddefinovaná mena nebola nainštalovaná.",module,Magento_Config
