@@ -775,6 +775,7 @@ Actions,Akcie,module,Magento_AdminNotification
 "Alternative text for previous link in pagination menu. If empty, default arrow image will used.","Alternatívny text pre predchádzajúci odkaz v stránkovani. Nechajte prázdne pre použitie predvoleného obrázku(šípky).",module,Magento_Backend
 "Alternative text for next link in pagination menu. If empty, default arrow image will used.","Alternatívny text pre následujúci odkaz v stránkovani. Nechajte prázdne pre použitie predvoleného obrázku(šípky).",module,Magento_Backend
 "Enable Javascript Bundling","Povoliť zoskupenie Javascriptu",module,Magento_Backend
+"VAT Number",DIČ,module,Magento_Backend
 "Recovery Link Expiration Period (days)","Doba platnosti odkazu obnovy (dni)",module,Magento_Backend
 "Values less than 60 are ignored.","Hodnoty menšie ako 60 sú ignorované.",module,Magento_Backend
 "Backup Type","Typ zálohovania",module,Magento_Backup
