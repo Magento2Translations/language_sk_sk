@@ -353,7 +353,6 @@ Categories,Kategórie,module,Magento_Catalog
 "Category is not available for requested store.","Kategória nie je dostupná pre požadovaný obchod.",module,Magento_Catalog
 "There was a category move error. %1","Nastala chyba presunu kategórie. %1",module,Magento_Catalog
 "There was a category move error.","Nastala chyba presunu kategórie.",module,Magento_Catalog
-"You moved the category","Premiestnili ste kategóriu",module,Magento_Catalog
 "Attribute ""%1"" is required.","Atribút ""%1"" je povinný.",module,Magento_Catalog
 "You saved the category.","Uložili ste kategóriu.",module,Magento_Catalog
 "Something went wrong while saving the category.","Pri ukladaní kategórie došlo k chybe.",module,Magento_Catalog
@@ -492,7 +491,6 @@ Disabled,Zakázané,module,Magento_Catalog
 "The image does not exist.","Obrázok neexistuje.",module,Magento_Catalog
 "Please correct the image file type.","Opravte prosím typ súboru obrázka.",module,Magento_Catalog
 "We couldn't move this file: %1.","Nemohli sme presunúť tento súbor: %1.",module,Magento_Catalog
-"We can't find the image file.","Súbor obrázka sa nedá nájsť.",module,Magento_Catalog
 "Could not remove custom option","Nepodarilo sa odstrániť možnosť zadefinovú užívateľom",module,Magento_Catalog
 "Please specify date required option(s).","Prosím uveďte požadovaný dátum.",module,Magento_Catalog
 "Please specify time required option(s).","Prosím uveďte požadovaný čas.",module,Magento_Catalog
@@ -560,7 +558,6 @@ message,správa,module,Magento_Catalog
 Images,Obrázky,module,Magento_Catalog
 Select...,Vyberte...,module,Magento_Catalog
 "Advanced Pricing","Pokročilá cenotvorba",module,Magento_Catalog
-"Tier Price","Skupinová cenotvorba",module,Magento_Catalog
 "Customer Group","Zákaznicka skupina",module,Magento_Catalog
 "Special Price From","Zľava od",module,Magento_Catalog
 To,Do,module,Magento_Catalog
@@ -600,7 +597,6 @@ Thumbnail,Náhľad,module,Magento_Catalog
 Actions,Akcie,module,Magento_Catalog
 "Schedule Update From","Naplánovať aktualizáciu od",module,Magento_Catalog
 "Product in Websites","Produkt na webových stránkach",module,Magento_Catalog
-"If your Magento site has multiple views, you can set the scope to apply to a specific view.","Ak váš Magento obchod má viac pohľadov, môžete nastaviť objektív vzťahujúci sa ku konkrétnému pohľadu.",module,Magento_Catalog
 name,meno,module,Magento_Catalog
 "Copy Data from","Kopírovanie údajov z",module,Magento_Catalog
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products &gt; Categories</a>.","Ak neexistujú žiadne vlastné nadradené kategórie, použite predvolenú nadradenú kategóriu. Kategóriu môžete kedykoľvek priradiť v <a href=""%1"" target=""_blank""> Produkty &gt; Kategórie</a>.",module,Magento_Catalog
@@ -619,7 +615,6 @@ Groups,Skupiny,module,Magento_Catalog
 "A name is required.","Meno je povinné.",module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.","Táto skupina obsahuje systémové atribúty. Prosím presuňte systémové atribúty do inej skupiny a skúste to znova.",module,Magento_Catalog
 "Please enter a new group name.","Prosím zadajte názov novej skupiny.",module,Magento_Catalog
-"An attribute group named ""/name/"" already exists"".","Skupina atribútov s názvom ""/name/"" už existuje"".",module,Magento_Catalog
 "Sorry, we're unable to complete this request.","Je nám ľúto, ale nie sme schopní dokončiť túto požiadavku.",module,Magento_Catalog
 "You can't remove attributes from this attribute set.","Nemôžete odstraniť atribút z tejto sady atribútov.",module,Magento_Catalog
 "Custom Options","Vlastné možnosti",module,Magento_Catalog
@@ -715,6 +710,7 @@ Availability,Dostupnosť,module,Magento_Catalog
 "We can't update the item right now.","Položku nebolo možné aktualizovať.",module,Magento_Checkout
 "We can't update the shopping cart.","Košík nebolo možné aktualizovať.",module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 nieje rozšírením triedy \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
+"Payment Method","Spôsob platby",module,Magento_Checkout
 "We can't find the product.","Produkt sa nedá nájsť.",module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Tlač potvrdenia</a>",module,Magento_Checkout
 "We'll email you an order confirmation with details and tracking info.","Bude Vám odoslané potvrdenie objednávky a prípadne i informácie na sledovanie zásielky.",module,Magento_Checkout
@@ -722,7 +718,6 @@ Availability,Dostupnosť,module,Magento_Catalog
 "We can't find a page to delete.","Nemôžeme nájsť stánku, ktorú chcete odstrániť.",module,Magento_Cms
 "We can't upload the file right now.","Práve teraz nieje možné nahrať súbor.",module,Magento_Cms
 "We can't delete root directory %1 right now.","Práve teraz nieje možné odstrániť koreňový adresár %1.",module,Magento_Cms
-"Are you sure you wan't to delete a ${ $.$data.title } record?","Ste si istý, že chcete odstrániť záznam ${ $.$data.title }?",module,Magento_Cms
 "Default Config","Predvolená konfigurácia",module,Magento_Config
 "Sorry, we haven't installed the base currency you selected.","Je nám ľúto, ale zvolená základná mena nebola nainštalovaná.",module,Magento_Config
 "We can't save the Cron expression.","Nieje možné uložiť Cron výraz.",module,Magento_Config
@@ -904,13 +899,6 @@ Customers,Zákazníci,module,Magento_Customer
 "A customer with the same email already exists in an associated website.","Zákazník s rovnakou e-mailom už existuje v pridruženej webovej stránke.",module,Magento_Customer
 "Reset password token mismatch.","Token na obnovu hesla je nesprávny.",module,Magento_Customer
 "Reset password token expired.","Platnosť tokenu na obnovu hesla vypršala.",module,Magento_Customer
-"Please enter the first name.","Prosím, zadajte krstné meno.",module,Magento_Customer
-"Please enter the last name.","Prosím, zadajte priezvisko.",module,Magento_Customer
-"Please enter the street.","Prosím, zadajte ulicu.",module,Magento_Customer
-"Please enter the city.","Prosím zadajte mesto.",module,Magento_Customer
-"Please enter the phone number.","Prosím, zadajte telefónne číslo.",module,Magento_Customer
-"Please enter the zip/postal code.","Prosím, zadajte poštové smerovacie číslo.",module,Magento_Customer
-"Please enter the country.","Zadajte prosím krajinu.",module,Magento_Customer
 "Please enter the state/province.","Prosím, zadajte okres.",module,Magento_Customer
 """%1"" is a required value.","""%1"" je požadovaná hodnota.",module,Magento_Customer
 Global,Globálne,module,Magento_Customer
@@ -1446,9 +1434,7 @@ Content,Obsah,module,Magento_Catalog
 "Add CMS Block","Pridanie CMS bloku",module,Magento_Catalog
 "Display Settings","Zobraziť nastavenia",module,Magento_Catalog
 Anchor,Kotva,module,Magento_Catalog
-"Sort Products By","Zoradiť produkty podľa",module,Magento_Catalog
 "Use All","Použiť všetky",module,Magento_Catalog
-"Default Product Sorting","Predvolené radenie produktov",module,Magento_Catalog
 "Layered Navigation Price Step","Cenový schod v vrstvovej navigácii",module,Magento_Catalog
 "URL Key","Kľúč URL",module,Magento_Catalog
 "Meta Title","META titulok",module,Magento_Catalog
@@ -1456,7 +1442,6 @@ Anchor,Kotva,module,Magento_Catalog
 "Meta Description","META popis",module,Magento_Catalog
 "Products in Category","Produkty v kategórii",module,Magento_Catalog
 Design,Dizajn,module,Magento_Catalog
-"Use Parent Category Settings","Použiť nastavenia nadradenej kategórie",module,Magento_Catalog
 Theme,Motív,module,Magento_Catalog
 Layout,Rozloženie,module,Magento_Catalog
 "Layout Update XML","Úprava XML rozloženia",module,Magento_Catalog
