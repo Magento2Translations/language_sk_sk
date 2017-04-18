@@ -487,6 +487,7 @@ Loading...,Načítávanie...,module,Magento_Catalog
 Availability,Dostupnosť,module,Magento_Catalog
 "Terms and Conditions","Zmluvné podmienky",module,Magento_CheckoutAgreements
 "Shopping Cart","Nákupný košík",module,Magento_Checkout
+"Static Blocks","Statické bloky",module,Magento_Cms
 "Edit Block '%1'","Upraviť blok ""%1""",module,Magento_Cms
 "Block Information","Informácie bloku",module,Magento_Cms
 "Edit Page '%1'","Upraviť stránku ""%1""",module,Magento_Cms
@@ -500,6 +501,7 @@ Availability,Dostupnosť,module,Magento_Catalog
 "Meta Data","Meta dáta",module,Magento_Cms
 Keywords,"Kľúčové slová",module,Magento_Cms
 Description,Popis,module,Magento_Cms
+"Save Currency Rates","Uložiť kurzy mien",module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","Prosím, opravte vstupné údaje pre kurz %1 => %2",module,Magento_CurrencySymbol
 "You subscribe to our newsletter.","Prihlásili ste sa k odberu noviniek.",module,Magento_Customer
 "You have not set a default shipping address.","Nenastavili ste predvolenú dodaciu adresu.",module,Magento_Customer
