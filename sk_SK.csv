@@ -714,6 +714,7 @@ Availability,Dostupnosť,module,Magento_Catalog
 "We can't find the product.","Produkt sa nedá nájsť.",module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Tlač potvrdenia</a>",module,Magento_Checkout
 "We'll email you an order confirmation with details and tracking info.","Bude Vám odoslané potvrdenie objednávky a prípadne i informácie na sledovanie zásielky.",module,Magento_Checkout
+"Static Blocks","Statické bloky",module,Magento_Cms
 "We can't find a block to delete.","Nemôžeme nájsť blok, ktorý chcete odstrániť.",module,Magento_Cms
 "We can't find a page to delete.","Nemôžeme nájsť stánku, ktorú chcete odstrániť.",module,Magento_Cms
 "We can't upload the file right now.","Práve teraz nieje možné nahrať súbor.",module,Magento_Cms
@@ -723,13 +724,17 @@ Availability,Dostupnosť,module,Magento_Catalog
 "We can't save the Cron expression.","Nieje možné uložiť Cron výraz.",module,Magento_Config
 "Sorry, we haven't installed the default display currency you selected.","Je nám ľúto, ale zvolená preddefinovaná mena nebola nainštalovaná.",module,Magento_Config
 "The file you're uploading exceeds the server size limit of %1 kilobytes.","Súbor ktorý sa pokúšate nahrať presahuje limit %1kB, ktorý je nastavený na servery.",module,Magento_Config
+"Add configurable attributes to the current Attribute Set (""%1"")","Pridať konfigurovateľné atribúty do aktuálne nastaveného setu atribútov (""%1"")",module,Magento_ConfigurableProduct
 "Requested option doesn't exist","Požadovaná možnosť neexistuje",module,Magento_ConfigurableProduct
 "Requested option doesn't exist: %1","Požadovaná možnosť neexistuje: %1",module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","Nemôžete pridávať položku do nákupného košíka.",module,Magento_ConfigurableProduct
+"Page not found.","Stránka sa nenašla.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Ďakujeme že ste nám zaslali Váš názor. V prípade dotazu Vás budeme čoskoro kontaktovať.",module,Magento_Contact
 "We can't process your request right now. Sorry, that's all we know.","Váš požiadavok momentálne nedokážeme spracovať. Bohužiaľ viac v tejto chvíli nemáme viac informácií.",module,Magento_Contact
+"Invalid domain name: %1","Neplatný názov domény: %1",module,Magento_Cookie
 "We can't save the cron expression.","Nieje možné uložiť Cron výraz.",module,Magento_Cron
 "Invalid cron expression, expecting 'from-to' structure: %1","Neplatný cron výraz, predpokladaná ""od-do"" štruktúra: %1",module,Magento_Cron
+"Save Currency Rates","Uložiť kurzy mien",module,Magento_CurrencySymbol
 "We can't initialize the import model.","Nepodarilo sa inicializovať model importu.",module,Magento_CurrencySymbol
 "We can't find a customer who matches this email and website code.","Nepodarilo sa nájsť zákazníka ktorý by odpovedal zadanému emailu a kódu stránky.",module,Magento_CustomerImportExport
 "We can't find that customer address.","Nepodarilo sa nájsť adresu zákazníka.",module,Magento_CustomerImportExport
@@ -1163,6 +1168,7 @@ Options,Možnosti,module,Magento_Ui
 "records found","nájdených záznamov",module,Magento_Ui
 selected,vybraných,module,Magento_Ui
 Filters,Filtre,module,Magento_Ui
+"Welcome to %store_name","Vitajte v %store_name",theme,frontend/Magento/luma
 "Welcome to %store_name.","Vitajte na %store_name.",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Pre prihlásenie sa na naších stránkach zadajte údaje v procesu objednávky alebo na stránke <a href=""%customer_url"">Môj účet</a>:",theme,frontend/Magento/luma
 Email:,E-mail:,theme,frontend/Magento/luma
@@ -1179,6 +1185,7 @@ Password:,Heslo:,theme,frontend/Magento/luma
 "For shipping to multiple family members and friends","Pre doručenie dalším členom rodiny a priateľom",theme,frontend/Magento/luma
 "Order History","História objednávok",theme,frontend/Magento/luma
 "View past orders","Zobraziť staršie objednávky",theme,frontend/Magento/luma
+Footer,Pätička,theme,frontend/Magento/luma
 "About Us","O nás",theme,frontend/Magento/luma
 "Customer Service","Zákaznícky servis",theme,frontend/Magento/luma
 "<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone""> %store_phone</a>",theme,frontend/Magento/luma
