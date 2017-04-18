@@ -722,6 +722,7 @@ Availability,Dostupnosť,module,Magento_Catalog
 "Unable to save shipping information. Please, check input data.","Nie je možné uložiť adresu doručenia. Prosím, skontrolujte vstupné údaje.",module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Tlač potvrdenia</a>",module,Magento_Checkout
 "We'll email you an order confirmation with details and tracking info.","Bude Vám odoslané potvrdenie objednávky a prípadne i informácie na sledovanie zásielky.",module,Magento_Checkout
+"Static Blocks","Statické bloky",module,Magento_Cms
 "Edit Block '%1'","Upraviť blok ""%1""",module,Magento_Cms
 "Block Information","Informácie bloku",module,Magento_Cms
 "Edit Page '%1'","Upraviť stránku ""%1""",module,Magento_Cms
@@ -751,6 +752,7 @@ Details,Podrobnosti,module,Magento_Cms
 "Invalid XML in file %1:
 %2","Chyba v XML v subore %1:
 %2",module,Magento_Config
+"Add configurable attributes to the current Attribute Set (""%1"")","Pridať konfigurovateľné atribúty do aktuálne nastaveného setu atribútov (""%1"")",module,Magento_ConfigurableProduct
 "Requested option doesn't exist","Požadovaná možnosť neexistuje",module,Magento_ConfigurableProduct
 "Requested option doesn't exist: %1","Požadovaná možnosť neexistuje: %1",module,Magento_ConfigurableProduct
 "Could not update option with id ""%1""","Nepodarilo sa aktualizovať možnosť s id ""%1""",module,Magento_ConfigurableProduct
@@ -759,10 +761,13 @@ Details,Podrobnosti,module,Magento_Cms
 "Products ""%1"" and %2 have the same set of attribute values.","Produkty ""%1"" a %2 majú rovnako nastavené hodnoty možností.",module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","Nemôžete pridávať položku do nákupného košíka.",module,Magento_ConfigurableProduct
 "Step 3: Bulk Images, Price, and Quantity","Krok 3: Hromadné obrázky, cena a množstvo",module,Magento_ConfigurableProduct
+"Page not found.","Stránka sa nenašla.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Ďakujeme že ste nám zaslali Váš názor. V prípade dotazu Vás budeme čoskoro kontaktovať.",module,Magento_Contact
 "We can't process your request right now. Sorry, that's all we know.","Váš požiadavok momentálne nedokážeme spracovať. Bohužiaľ viac v tejto chvíli nemáme viac informácií.",module,Magento_Contact
+"Invalid domain name: %1","Neplatný názov domény: %1",module,Magento_Cookie
 "We can't save the cron expression.","Nieje možné uložiť Cron výraz.",module,Magento_Cron
 "Invalid cron expression, expecting 'from-to' structure: %1","Neplatný cron výraz, predpokladaná ""od-do"" štruktúra: %1",module,Magento_Cron
+"Save Currency Rates","Uložiť kurzy mien",module,Magento_CurrencySymbol
 "We can't initialize the import model.","Nepodarilo sa inicializovať model importu.",module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","Prosím, opravte vstupné údaje pre kurz %1 => %2",module,Magento_CurrencySymbol
 "We can't find a customer who matches this email and website code.","Nepodarilo sa nájsť zákazníka ktorý by odpovedal zadanému emailu a kódu stránky.",module,Magento_CustomerImportExport
