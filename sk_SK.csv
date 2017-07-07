@@ -33,12 +33,266 @@ Close,Zavrieť,module,Magento_AdminNotification
 "Major System Messages","Hlavné systémové hlásenia",module,Magento_AdminNotification
 "System messages","Systémové správy",module,Magento_AdminNotification
 "You created the order.","Vytvorili ste objednávku.",module,Magento_Authorizenet
-"Invalid Form Key. Please refresh the page.","Neplatný kľúč Formuláru. Prosím refrešujte stránku.",module,Magento_Backend
+"Order saving error: %1","Chyba uloženia objednávky: %1",module,Magento_Authorizenet
+"Please choose a payment method.","Vyberte spôsob platby.",module,Magento_Authorizenet
+"Credit Card: xxxx-%1","Kreditná karta: xxxx-%1",module,Magento_Authorizenet
+"amount %1","suma %1",module,Magento_Authorizenet
+authorize,schváliť,module,Magento_Authorizenet
+"authorize and capture","schváliť a získať",module,Magento_Authorizenet
+capture,získať,module,Magento_Authorizenet
+refund,vrátenie,module,Magento_Authorizenet
+void,anulované,module,Magento_Authorizenet
+"Gateway error: %1","Chyba brány: %1",module,Magento_Authorizenet
+"Something went wrong in the payment gateway.","Niečo sa pokazilo v platobnej bráne.",module,Magento_Authorizenet
+"Invalid amount for capture.","Neplatná čiastka pre zachytenie.",module,Magento_Authorizenet
+"Payment capturing error.","Chyba získavania platby.",module,Magento_Authorizenet
+"Invalid transaction ID.","Neplatné transakčné ID.",module,Magento_Authorizenet
+"Payment voiding error.","Chyba anulácie platby.",module,Magento_Authorizenet
+"Invalid amount for refund.","Neplatná čiastka vrátenia.",module,Magento_Authorizenet
+"Payment refunding error.","Chyba vrátenia platby.",module,Magento_Authorizenet
+"The transaction was declined because the response hash validation failed.","Transakcia bola odmietnutá, pre zlyhanie odpovede overovacieho algoritmu.",module,Magento_Authorizenet
+"There was a payment authorization error.","Nastala chyba autorizácie platby.",module,Magento_Authorizenet
+"Authorize Only","Len schváliť",module,Magento_Authorizenet
+"Authorize and Capture","Schváliť a získať",module,Magento_Authorizenet
+"Credit Card Type","Typ kreditnej karty",module,Magento_Authorizenet
+"Credit Card Number","Číslo kreditnej karty",module,Magento_Authorizenet
+"Expiration Date","Dátum expirácie",module,Magento_Authorizenet
+"Card Verification Number","Overovacie číslo karty",module,Magento_Authorizenet
+"Invalid Form Key. Please refresh the page.","Neplatný kľúč Formuláru. Prosím obnovte stránku.",module,Magento_Backend
+"You entered an invalid Secret Key. Please refresh the page.","Zadali ste neplatný tajný kľúč. Prosím, aktualizujte stránku.",module,Magento_Backend
+"Cache Storage Management","Správa ukladacieho priestoru vyrovnávacej pamäte",module,Magento_Backend
+"Flush Magento Cache","Vyprázdnenie Magento vyrovnávacej pamäte",module,Magento_Backend
+"Flush Cache Storage","Vyprázdniť vyrovnávaciu pamäť",module,Magento_Backend
+Invalidated,Zneplatnené,module,Magento_Backend
+Orders,Objednávky,module,Magento_Backend
+Amounts,Sumy,module,Magento_Backend
+Bestsellers,Najpredávanejšie,module,Magento_Backend
+"Most Viewed Products","Najviac prezerané produkty",module,Magento_Backend
+"New Customers","Noví zákazníci",module,Magento_Backend
+Customers,Zákazníci,module,Magento_Backend
+Customer,Zákazník,module,Magento_Backend
+Guest,Hosť,module,Magento_Backend
+Items,Položky,module,Magento_Backend
+Total,Celkom,module,Magento_Backend
+"Lifetime Sales","Celkový obrat",module,Magento_Backend
+"Average Order","Priemerná objednávka",module,Magento_Backend
+Average,Priemer,module,Magento_Backend
+Product,Produkt,module,Magento_Backend
+Price,Cena,module,Magento_Backend
+Quantity,Množstvo,module,Magento_Backend
+Views,Zobrazenia,module,Magento_Backend
+Revenue,Príjem,module,Magento_Backend
+Tax,Daň,module,Magento_Backend
+Shipping,Doprava,module,Magento_Backend
+"Images (.gif, .jpg, .png)","Obrázky (.gif, .jpg, .png)",module,Magento_Backend
+"Media (.avi, .flv, .swf)","Médiá (.avi, .flv, .swf)",module,Magento_Backend
+"All Files","Všetky súbory",module,Magento_Backend
+"Reset to Default","Nastaviť predvolené",module,Magento_Backend
+"All Store Views","Všetky zobrazenia obchodu",module,Magento_Backend
+"What is this?","Čo je toto?",module,Magento_Backend
+"Save Account","Uložiť účet",module,Magento_Backend
+"My Account","Môj účet",module,Magento_Backend
+"Account Information","Informácie o účte",module,Magento_Backend
+"User Name","Meno používateľa",module,Magento_Backend
+"First Name",Meno,module,Magento_Backend
+"Last Name",Priezvisko,module,Magento_Backend
+"User Email","Email používateľa",module,Magento_Backend
+"New Password","Nové heslo",module,Magento_Backend
+"Password Confirmation","Potvrdenie hesla",module,Magento_Backend
+"Interface Locale","Miestne rozhranie",module,Magento_Backend
+"Current User Identity Verification","Overenie identity aktuálneho užívateľa",module,Magento_Backend
+"Your Password","Vaše heslo",module,Magento_Backend
+"Save Cache Settings","Uložiť nastavenia vyrovnávacej pamäte",module,Magento_Backend
+"Catalog Rewrites","Prepisy katalógu",module,Magento_Backend
+Refresh,Obnoviť,module,Magento_Backend
+"Images Cache","Cache obrázkov",module,Magento_Backend
+Clear,Vyčistiť,module,Magento_Backend
+"Search Index","Index vyhľadávania",module,Magento_Backend
+Rebuild,Prestavať,module,Magento_Backend
+"Inventory Stock Status","Stav skladových zásob",module,Magento_Backend
+"Rebuild Catalog Index","Prestavať index katalógu",module,Magento_Backend
+"Rebuild Flat Catalog Category","Prestavať kategóriu plochého katalógu",module,Magento_Backend
+"Rebuild Flat Catalog Product","Prestavať produkt plochého katalógu",module,Magento_Backend
+"Cache Control","Riadenie cache",module,Magento_Backend
+"All Cache","Všetky Cache",module,Magento_Backend
+"No change","Bezo zmeny",module,Magento_Backend
+Disable,Vypnúť,module,Magento_Backend
+Enable,Zapnúť,module,Magento_Backend
+"Add Design Change","Pridať zmenu dizajnu",module,Magento_Backend
+Back,Späť,module,Magento_Backend
+Delete,Zmazať,module,Magento_Backend
+"Are you sure?","Ste si istí?",module,Magento_Backend
+Save,Uložiť,module,Magento_Backend
+"Edit Design Change","Upraviť zmenu dizajnu",module,Magento_Backend
+"New Store Design Change","Nová zmena dizajnu obchodu",module,Magento_Backend
+"General Settings","Základné nastavenia",module,Magento_Backend
+Store,Obchod,module,Magento_Backend
+"-- Please Select --","-- Prosím vyberte --",module,Magento_Backend
+"Custom Design","Vlastný dizajn",module,Magento_Backend
+"Date From","Dátum od",module,Magento_Backend
+"Date To","Dátum do",module,Magento_Backend
+"Design Change","Zmena dizajnu",module,Magento_Backend
+General,Základné,module,Magento_Backend
+Cancel,Zrušiť,module,Magento_Backend
+"Delete %1 '%2'","Odstrániť %1 '%2'",module,Magento_Backend
+"Delete %1","Odstrániť %1",module,Magento_Backend
+"Block Information","Blok informácií",module,Magento_Backend
+"Backup Options","Možnosti zálohy",module,Magento_Backend
+"Create DB Backup","Vytvoriť zálohu DB",module,Magento_Backend
+Yes,Áno,module,Magento_Backend
+No,Nie,module,Magento_Backend
+"Delete Store","Odstrániť obchod",module,Magento_Backend
+"Delete Web Site","Zmazať webstránku",module,Magento_Backend
+"Save Web Site","Uložiť webstránku",module,Magento_Backend
+"Save Store","Uložiť obchod",module,Magento_Backend
+"Save Store View","Uložiť zobrazenie obchodu",module,Magento_Backend
+"Delete Store View","Odstrániť zobrazenie obchodu",module,Magento_Backend
+"Edit Web Site","Upraviť webstránku",module,Magento_Backend
+"New Web Site","Nová webstránka",module,Magento_Backend
+"Edit Store","Upraviť obchod",module,Magento_Backend
+"New Store","Nový obchod",module,Magento_Backend
+"Edit Store View","Upraviť zobrazenie obchodu",module,Magento_Backend
+"New Store View","Nové zobrazenie obchodu",module,Magento_Backend
+"Store Information","Údaje obchodu",module,Magento_Backend
+"Web Site",Webstránka,module,Magento_Backend
+Name,Meno,module,Magento_Backend
+"Root Category","Hlavná kategória",module,Magento_Backend
+"Default Store View","Predvolené zobrazenie obchodu",module,Magento_Backend
+"Store View Information","Info o zobrazení obchodu",module,Magento_Backend
+Code,Kód,module,Magento_Backend
+Disabled,Vypnuté,module,Magento_Backend
+Enabled,Zapnuté,module,Magento_Backend
+"Sort Order","Zoradiť podľa",module,Magento_Backend
+"Web Site Information","Informácie o stránke",module,Magento_Backend
+"Default Store","Predvolený obchod",module,Magento_Backend
+"Set as Default","Nastaviť ako predvolené",module,Magento_Backend
+Stores,Obchody,module,Magento_Backend
+"Create Website","Vytvoriť skupinu obchodov(website)",module,Magento_Backend
+"Create Store","Vytvoriť obchod",module,Magento_Backend
+"Create Store View","Vytvoriť zobrazenie obchodu",module,Magento_Backend
+Home,Domov,module,Magento_Backend
+Reset,Resetovať,module,Magento_Backend
+"Are you sure you want to do this?","Ste si istí, že to chcete urobiť?",module,Magento_Backend
+"Add New Image","Pridať nový obrázok",module,Magento_Backend
+"Reset Filter","Resetovať filter",module,Magento_Backend
+Search,Hľadať,module,Magento_Backend
+Any,Akékoľvek,module,Magento_Backend
+"All Countries","Všetky krajiny",module,Magento_Backend
+From,Od,module,Magento_Backend
+To,Do,module,Magento_Backend
+"Date selector","Výber dátumu",module,Magento_Backend
+"[ deleted ]","[ zmazané ]",module,Magento_Backend
+"Select All","Vybrať všetko",module,Magento_Backend
+"Add New","Pridať nové",module,Magento_Backend
+"Please correct the column format and try again.","Opravte formát stĺpcov a skúste znova.",module,Magento_Backend
+"Please select items.","Prosím vyberte položky.",module,Magento_Backend
+Submit,Potvrdiť,module,Magento_Backend
+"Please correct the tab configuration and try again.","Prosím opravte konfiguráciu karty a skúste znova.",module,Magento_Backend
+"You have logged out.","Odhlásili ste sa.",module,Magento_Backend
+"The image cache was cleaned.","Obraz cache bol vyčistený.",module,Magento_Backend
+"An error occurred while clearing the image cache.","Pri čistení obrazu cache sa vyskytla chyba.",module,Magento_Backend
+"The JavaScript/CSS cache has been cleaned.","Vyrovnávacia pamäť pre JavaScript/CSS bola vyčistená.",module,Magento_Backend
+"An error occurred while clearing the JavaScript/CSS cache.","Pri mazaní cache pre JavaScript/CSS sa vyskytla chyba.",module,Magento_Backend
+"You flushed the cache storage.","Vyprázdnili ste vyrovnávaciu pamäť.",module,Magento_Backend
+"The Magento cache storage has been flushed.","Magento vyrovnávacia pamäť sa vyprázdnila.",module,Magento_Backend
+"%1 cache type(s) disabled.","%1 cache typ(-y) vypnuté.",module,Magento_Backend
+"An error occurred while disabling cache.","Pri zakazovaní cache sa vyskytla chyba.",module,Magento_Backend
+"%1 cache type(s) enabled.","%1 typ(-y) vyrovnácej pamäte boli aktivované.",module,Magento_Backend
+"An error occurred while enabling cache.","Vyskytla sa chyba počas aktivácie vyrovnávacej pamäte.",module,Magento_Backend
+"%1 cache type(s) refreshed.","%1 typ(-y) vyrovnácej pamäte boli obnovené.",module,Magento_Backend
+"An error occurred while refreshing cache.","Vyskytla sa chyba počas obnovy vyrovnávacej pamäte.",module,Magento_Backend
+Dashboard,"Hlavný panel",module,Magento_Backend
+"invalid request","neplatná požiadavka",module,Magento_Backend
+"see error log for details","pozri záznam chýb pre bližšie informácie",module,Magento_Backend
+"Service unavailable: %1","Nedostupná služba: %1",module,Magento_Backend
+Error,Chyba,module,Magento_Backend
+"You need more permissions to do this.","Nemáte dostatočné oprávnenie na požadovaný príkaz.",module,Magento_Backend
+"No search modules were registered","Neboli registrované žiadne moduly vyhľadávania",module,Magento_Backend
+"Please make sure that all global admin search modules are installed and activated.","Uistite sa, že všetky globálne administratorské moduly vyhľadávania sú nainštalované a aktivované.",module,Magento_Backend
+"You saved the account.","Účet bol uložený.",module,Magento_Backend
+"An error occurred while saving account.","Pri ukľadaní účtu sa vyskytla chyba.",module,Magento_Backend
+"You deleted the design change.","Zmena dizajnu bol odstránená.",module,Magento_Backend
+"Store Design","Dizajn obchodu",module,Magento_Backend
+"Edit Store Design Change","Upraviť zmenu dizajnu obchodu",module,Magento_Backend
+"You saved the design change.","Uložili ste zmenu dizajnu.",module,Magento_Backend
+System,Systém,module,Magento_Backend
+"Manage Stores","Správa obchodov",module,Magento_Backend
+"The database was backed up.","Databáza bola zálohovaná.",module,Magento_Backend
+"Deleting a %1 will not delete the information associated with the %1 (e.g. categories, products, etc.), but the %1 will not be able to be restored. It is suggested that you create a database backup before deleting the %1.","Odstránením %1 sa neodstránia informácie spojené s %1 (napr. kategórie, produkty, atď), ale %1 nebude možné obnoviť. Doporučuje sa vytvoríť zálohu databázy pred odstránením %1.",module,Magento_Backend
+"This store cannot be deleted.","Tento obchod nie je možné zmazať.",module,Magento_Backend
 "Unable to delete store. Please, try again later.","Nie je možné odstrániť obchod. Prosím, skúste znova neskôr.",module,Magento_Backend
+"This store view cannot be deleted.","Tento zobrazenie obchodu nie je možné zmazať.",module,Magento_Backend
+"Store View","Zobrazenie obchodu",module,Magento_Backend
 "Unable to delete store view. Please, try again later.","Nie je možné odstrániť zobrazenie obchodu. Prosím, skúste znova neskôr.",module,Magento_Backend
+"This website cannot be deleted.","Túto skupinu obchodov(website) nie je možné zmazať.",module,Magento_Backend
 "Unable to delete website. Please, try again later.","Nie je možné odstrániť webovú stránku. Prosím, skúste znova neskôr.",module,Magento_Backend
+"The website does not exist.","Skupina obchodov(website) neexistuje.",module,Magento_Backend
+"Store view doesn't exist","Zobrazenie obchodu neexistuje",module,Magento_Backend
+"Last 24 Hours","Posledných 24 hodín",module,Magento_Backend
+"Last 7 Days","Posledných 7 dní",module,Magento_Backend
+"Current Month","Aktuálny mesiac",module,Magento_Backend
+YTD,"Tento rok",module,Magento_Backend
+2YTD,"Od začiatku minulého roku",module,Magento_Backend
+"You did not sign in correctly or your account is temporarily disabled.","Nesprávné prihlásenie alebo Váš účet je dočasne zablokovaný.",module,Magento_Backend
+"Authentication error occurred.","Vyskytla sa chyba overovania.",module,Magento_Backend
+Order,Objednávka,module,Magento_Backend
+"Order #%1","Objednávka #%1",module,Magento_Backend
+"Access denied","Prístup zamietnutý",module,Magento_Backend
+"Welcome, please sign in","Vitajte, prosím prihláste sa",module,Magento_Backend
+"user name","meno používateľa",module,Magento_Backend
+password,heslo,module,Magento_Backend
+"Sign in","Prihlásiť sa",module,Magento_Backend
+"Select Range:","Vybrať rozsah:",module,Magento_Backend
+"No Data Found","Neboli nájdené žiadne údaje",module,Magento_Backend
+"Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","Graf je vypnutý. Graf možete zapnúť <a href=""%1""> tu</a>.",module,Magento_Backend
+"Last Orders","Posledné objednávky",module,Magento_Backend
+"Last Search Terms","Posledné hľadané výrazy",module,Magento_Backend
+"Top Search Terms","Najvyhľadávanejšie výrazy",module,Magento_Backend
+"View Statistics For:","Zobrazenie štatistických údajov pre:",module,Magento_Backend
+"All Websites","Všetky skupiny obchodov(websites)",module,Magento_Backend
+"Reload Data","Obnoviť údaje",module,Magento_Backend
+"Browse Files...","Prechádzať súbory...",module,Magento_Backend
 "Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","Copyright&copy; %1 Magento Commerce Inc. Všetky práva vyhradené.",module,Magento_Backend
+"Account Setting","Nastavenie účtu",module,Magento_Backend
+"Customer View","Pohľad zákazníka",module,Magento_Backend
+"Sign Out","Odhlásiť sa",module,Magento_Backend
+"About the calendar","O kalendári",module,Magento_Backend
+Close,Zavrieť,module,Magento_Backend
+Previous,Pred.,module,Magento_Backend
+Next,Ďalej,module,Magento_Backend
+Time,Čas,module,Magento_Backend
+Hour,Hodina,module,Magento_Backend
+Minute,Minúta,module,Magento_Backend
+"JavaScript may be disabled in your browser.","JavaScript vo vašom prehliadači môže byť vypnutý.",module,Magento_Backend
+"To use this website you must first enable JavaScript in your browser.","Pre používanie tejto internetovej stránky musíte najprv povoliť JavaScript vo vašom prehliadači.",module,Magento_Backend
+"This is only a demo store. You can browse and place orders, but nothing will be processed.","Toto je len vzorový obchod. Môžete prechádzať produkty a objednávať, ale objednávky nebudú spracované.",module,Magento_Backend
+"Stores Configuration","Nastavenia obchodov",module,Magento_Backend
+"Additional Cache Management","Dodatočná správa vyrovnávacej pamäte",module,Magento_Backend
+"Flush Catalog Images Cache","Vyčistiť vyrovnávaciu pamäť",module,Magento_Backend
+"Pregenerated product images files","Predpripravené obrázky produktov",module,Magento_Backend
+"Flush JavaScript/CSS Cache","Vyčistit vyrovnávaciu pamäť Javascript/CSS",module,Magento_Backend
 "Themes JavaScript and CSS files combined to one file.","Témy JavaScript a CSS súborov sa zlúčili do jedného súboru.",module,Magento_Backend
+"Flush Static Files Cache","Vyčistit vyrovnávaciu pamäť statických súborov",module,Magento_Backend
+"Preprocessed view files and static files","Predpripravené súbory náhľadov a statické súbory",module,Magento_Backend
+Catalog,Katalóg,module,Magento_Backend
+"JavaScript/CSS Cache","Vyrovnácia pamät pre JavaScript/CSS",module,Magento_Backend
+"No records found.","Nenašli sa žiadne záznamy.",module,Magento_Backend
+Images,Obrázky,module,Magento_Backend
+"Big Image","Veľký obrázok",module,Magento_Backend
+Thumbnail,Náhľad,module,Magento_Backend
+"Additional Settings","Ďalšie nastavenia",module,Magento_Backend
+"per page","na stránku",module,Magento_Backend
+"Previous page","Predchádzajúca strana",module,Magento_Backend
+"of %1","z %1",module,Magento_Backend
+"Next page","Ďalšia strana",module,Magento_Backend
+"Export to:","Exportovať do:",module,Magento_Backend
+Actions,Príkazy,module,Magento_Backend
+"Mass Actions","Hromadné príkazy",module,Magento_Backend
+"Unselect All","Zrušiť výber všetkých",module,Magento_Backend
+"Select Visible","Vybrať viditeľné",module,Magento_Backend
+"Unselect Visible","Zrušiť výber viditeľných",module,Magento_Backend
+"The information in this tab has been changed.","Informácie na tejto záložke sa zmenili.",module,Magento_Backend
+Loading...,Načítávanie...,module,Magento_Backend
 "System Backup","Záloha systému",module,Magento_Backup
 "Database and Media Backup","Záloha Databáze a multimédií",module,Magento_Backup
 "Database Backup","Záloha databáze",module,Magento_Backup
@@ -83,11 +337,74 @@ Country,Krajina,module,Magento_Braintree
 "Edit Credit Card","Upraviť platobnú kartu",module,Magento_Braintree
 "My Credit Cards","Moje platobné karty",module,Magento_Braintree
 "Percent Discount","Percentuálna zľava",module,Magento_Bundle
+"-- Select --","-- Vyberte --",module,Magento_Bundle
+Dynamic,Dynamické,module,Magento_Bundle
+Fixed,Pevné,module,Magento_Bundle
+"Create New Option","Vytvoriť novú možnosť",module,Magento_Bundle
+"Bundle Items","Súbor položiek",module,Magento_Bundle
+"Add Products to Option","Pridať produkty k možnosti",module,Magento_Bundle
+Close,Zavrieť,module,Magento_Bundle
+"Delete Option","Odstrániť možnosť",module,Magento_Bundle
+Product,Produkt,module,Magento_Bundle
+SKU,"Katalógové číslo",module,Magento_Bundle
+Price,Cena,module,Magento_Bundle
+Delete,Zmazať,module,Magento_Bundle
+"Use Default Value","Použiť predvolenú hodnotu",module,Magento_Bundle
+"There is no defined renderer for ""%1"" option type.","Neexistuje žiadný definovaný vykresľovač pre typ možnosti ""%1"".",module,Magento_Bundle
+"As Low as","Už od",module,Magento_Bundle
+"Price Range","Cenový rozsah",module,Magento_Bundle
+"Please specify product option(s).","Zadajte parametre produktu.",module,Magento_Bundle
+"The required options you selected are not available.","Požadované možnosti ktoré ste vybrali sú nedostupné.",module,Magento_Bundle
+"Please select all required options.","Vyberte všetky požadované možnosti.",module,Magento_Bundle
+N/A,NEDOST.,module,Magento_Bundle
+None,Žiadny,module,Magento_Bundle
+"Choose a selection...","Zvolte výber...",module,Magento_Bundle
+"Ship Bundle Items","Odoslať súbor položiek",module,Magento_Bundle
+Separately,Samostatne,module,Magento_Bundle
+Together,Spolu,module,Magento_Bundle
+"Option Title","Názov možnosti",module,Magento_Bundle
+"Store View Title","Názov zobrazenia obchodu",module,Magento_Bundle
+"Input Type","Typ vstupu",module,Magento_Bundle
+Required,Požadované,module,Magento_Bundle
+Position,Pozícia,module,Magento_Bundle
+"There are no products in this option.","Zvolenú možnosť nemá žiadný produkt.",module,Magento_Bundle
+"New Option","Nová možnosť",module,Magento_Bundle
+Default,Predvolené,module,Magento_Bundle
+Name,Názov,module,Magento_Bundle
+"Price Type","Typ ceny",module,Magento_Bundle
+"Default Quantity","Predvolené množstvo",module,Magento_Bundle
+"User Defined","Definované používateľom",module,Magento_Bundle
+Ordered,Objednané,module,Magento_Bundle
+Invoiced,Fakturované,module,Magento_Bundle
+Shipped,Odoslané,module,Magento_Bundle
+Refunded,Vrátené,module,Magento_Bundle
+Canceled,Zrušené,module,Magento_Bundle
+"As low as","Už od",module,Magento_Bundle
+From,Od,module,Magento_Bundle
+To,Do,module,Magento_Bundle
+"Buy %1 with %2 discount each","Kúpte %1 každý so zľavou %2",module,Magento_Bundle
+"Go back to product details","Vrátiť sa k podrobnostiam o produkte",module,Magento_Bundle
+"Customize and Add to Cart","Prispôsobiť a pridať do košíka",module,Magento_Bundle
+"* Required Fields","* Povinné políčka",module,Magento_Bundle
+"Your Customization","Vaše prispôsobenie",module,Magento_Bundle
+Availability,Dostupnosť,module,Magento_Bundle
+"In stock",Skladom,module,Magento_Bundle
+"Out of stock",Vypredané,module,Magento_Bundle
+Summary,Zhrnutie,module,Magento_Bundle
+Availability:,Dostupnosť:,module,Magento_Bundle
+"Customize %1","Prispôsobiť %1",module,Magento_Bundle
+"No options of this product are available.","Pre tento produkt niesu dostupné žiadne možnosti.",module,Magento_Bundle
+"Gift Message",Venovanie,module,Magento_Bundle
+From:,Od:,module,Magento_Bundle
+To:,Pre:,module,Magento_Bundle
+Message:,Správa:,module,Magento_Bundle
 Always,Vždy,module,Magento_Captcha
+"After number of attempts to login","Po niekoľkých pokusoch o prihlásenie",module,Magento_Captcha
 "Incorrect CAPTCHA","Nesprávna CAPTCHA",module,Magento_Captcha
 "Incorrect CAPTCHA.","Nesprávna CAPTCHA.",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>Pozor</strong>: Rozlišujte malé a veľké písmená.",module,Magento_Captcha
 "Reload captcha",Obnoviť,module,Magento_Captcha
+"Please type the letters below","Prosím zadajte znaky nižšie",module,Magento_Captcha
 "ALL GROUPS","VŠETKY SKUPINY",module,Magento_CatalogInventory
 "Customer Group","Zákaznicka skupina",module,Magento_CatalogInventory
 "Minimum Qty","Minimálne množstvo",module,Magento_CatalogInventory
@@ -123,7 +440,28 @@ To,Do,module,Magento_CatalogRule
 Priority,Priorita,module,Magento_CatalogRule
 "Wrong rule specified.","Špecifikované zle pravidlo.",module,Magento_CatalogRule
 Home,Domov,module,Magento_CatalogSearch
+"Go to Home Page","Prejdite na domovskú stránku",module,Magento_CatalogSearch
+"Catalog Advanced Search","Pokročilé vyhľadávanie v katalógu",module,Magento_CatalogSearch
+All,Všetky,module,Magento_CatalogSearch
+Yes,Áno,module,Magento_CatalogSearch
+No,Nie,module,Magento_CatalogSearch
+Results,Výsledky,module,Magento_CatalogSearch
+Grid,Mriežka,module,Magento_CatalogSearch
+List,Zoznam,module,Magento_CatalogSearch
+Relevance,Relevancia,module,Magento_CatalogSearch
+"Search results for: '%1'","Výsledky hľadania pre: ""%1""",module,Magento_CatalogSearch
+"Minimum Search query length is %1","Minimálna dĺžka dotazu pre vyhľadávanie je %1",module,Magento_CatalogSearch
+"Please specify at least one search term.","Zadajte aspoň jeden hľadaný výraz.",module,Magento_CatalogSearch
+"%1 and greater","%1 a väčší",module,Magento_CatalogSearch
+"up to %1","až %1",module,Magento_CatalogSearch
+"Search Settings","Nastavenia vyhľadávania",module,Magento_CatalogSearch
+Search,Hľadať,module,Magento_CatalogSearch
+"Advanced Search","Rozšírené vyhľadávanie",module,Magento_CatalogSearch
+"<strong>%1 item</strong> were found using the following search criteria","<strong>%1 položky</strong> boli nájdené pomocou nasledujúcich kritérií vyhľadávania",module,Magento_CatalogSearch
+"<strong>%1 items</strong> were found using the following search criteria","<strong>%1 položky</strong> boli nájdené pomocou nasledujúcich kritérií vyhľadávania",module,Magento_CatalogSearch
 "Modify your search","Upravte vaše vyhľadávanie",module,Magento_CatalogSearch
+name,meno,module,Magento_CatalogSearch
+"Don't see what you're looking for?","Nemôžete nájsť, čo hľadáte?",module,Magento_CatalogSearch
 Root,Hlavný,module,Magento_Catalog
 "Save Category","Uložiť kategóriu",module,Magento_Catalog
 "Delete Category","Odstrániť kategóriu",module,Magento_Catalog
@@ -417,11 +755,16 @@ Groups,Skupiny,module,Magento_Catalog
 "Maximum image width","Maximálna šírka obrázku",module,Magento_Catalog
 "Maximum image height","Maximálna výška obrázku",module,Magento_Catalog
 "Maximum number of characters:","Maximálny počet znakov:",module,Magento_Catalog
+"Product online","Produkt online",module,Magento_Catalog
+"Product offline","Produkt v režime offline",module,Magento_Catalog
 "Manage Stock","Správa zásob",module,Magento_Catalog
 Qty,Množstvo,module,Magento_Catalog
 "Minimum Qty Allowed in Shopping Cart","Minimálne množstvo povolené v nákupnom košíku",module,Magento_Catalog
 "Maximum Qty Allowed in Shopping Cart","Maximálne množstvo povolené v nákupnom košíku",module,Magento_Catalog
 "Qty Uses Decimals","Množstvo používa desatinné miesta",module,Magento_Catalog
+Backorders,Do-objednávky,module,Magento_Catalog
+"Enable Qty Increments","Povoliť množstvo po krokoch",module,Magento_Catalog
+"Qty Increments","Množstevný krok",module,Magento_Catalog
 "Stock Availability","Dostupnosť na sklade",module,Magento_Catalog
 "In Stock",Skladom,module,Magento_Catalog
 "Out of Stock",Vypredané,module,Magento_Catalog
@@ -448,6 +791,7 @@ Action,Akcia,module,Magento_Catalog
 Role,Úloha,module,Magento_Catalog
 "Hide from Product Page","Nezobrazovať na stránke produktu",module,Magento_Catalog
 "Close panel","Zavrieť panel",module,Magento_Catalog
+"Product Alerts","Upozornenia produktu",module,Magento_Catalog
 "Basic Settings","Základné nastavenia",module,Magento_Catalog
 "Advanced Settings","Pokročilé nastavenia",module,Magento_Catalog
 "Mass Actions","Hromadné akcie",module,Magento_Catalog
@@ -487,6 +831,53 @@ Loading...,Načítávanie...,module,Magento_Catalog
 Availability,Dostupnosť,module,Magento_Catalog
 "Terms and Conditions","Zmluvné podmienky",module,Magento_CheckoutAgreements
 "Shopping Cart","Nákupný košík",module,Magento_Checkout
+"Invalid method: %1","Neplatná metóda: %1",module,Magento_Checkout
+City,Mesto,module,Magento_Checkout
+Country,Krajina,module,Magento_Checkout
+State/Province,Kraj/okres,module,Magento_Checkout
+"Zip/Postal Code","Poštové smerovacie číslo",module,Magento_Checkout
+"My Cart (1 item)","Môj košík (1 položka)",module,Magento_Checkout
+"My Cart (%1 items)","Môj košík (%1 položiek)",module,Magento_Checkout
+"My Cart","Môj košík",module,Magento_Checkout
+"You added %1 to your shopping cart.","Produkt %1 bol pridaný do Vašeho nákupného košíka.",module,Magento_Checkout
+"We can't find the quote item.","Nemôžeme nájsť položku z vašeho košíka.",module,Magento_Checkout
+"We cannot configure the product.","Produkt nebolo možné nakonfigurovať.",module,Magento_Checkout
+"The coupon code ""%1"" is not valid.","Kupon s kódom ""%1"" je neplatný.",module,Magento_Checkout
+"We cannot apply the coupon code.","Nebolo možné aplikovať zadaný kupón.",module,Magento_Checkout
+"%1 was updated in your shopping cart.","%1 bol aktualizovaný v nákupnom košíku.",module,Magento_Checkout
+Checkout,Objednať,module,Magento_Checkout
+"Please agree to all the terms and conditions before placing the order.","Je nutné akceptovať podmienky a ustanovenia pre dokončenie nákupu.",module,Magento_Checkout
+"The product does not exist.","Produkt neexistuje.",module,Magento_Checkout
+"We don't have some of the products you want.","Nemáme niektoré z produktov, ktoré chcete.",module,Magento_Checkout
+"We don't have as many of some products as you want.","Požadované množstvo nieje dostupné.",module,Magento_Checkout
+"Quantity was recalculated from %1 to %2","Množstvo bolo prepočítané z %1 na %2",module,Magento_Checkout
+"This quote item does not exist.","Táto položka z košíka už neexistuje.",module,Magento_Checkout
+"Display number of items in cart","Zobraziť počet položiek v košíku",module,Magento_Checkout
+"Display item quantities","Zobraziť množstva produktov",module,Magento_Checkout
+"Invalid data","Neplatné údaje",module,Magento_Checkout
+"The customer address is not valid.","Adresa zákazníka je neplatná.",module,Magento_Checkout
+"Invalid shipping method","Neplatný spôsob dopravy",module,Magento_Checkout
+Item,Položka,module,Magento_Checkout
+Price,Cena,module,Magento_Checkout
+Qty,Množstvo,module,Magento_Checkout
+Subtotal,Medzisúčet,module,Magento_Checkout
+"Continue Shopping","Pokračovať v nákupe",module,Magento_Checkout
+"Clear Shopping Cart","Vyprázdniť nákupný košík",module,Magento_Checkout
+"Update Shopping Cart","Aktualizovať nákupný košík",module,Magento_Checkout
+"Update Cart","Aktualizácia košíka",module,Magento_Checkout
+"What's this?","Čo to je?",module,Magento_Checkout
+"Edit item parameters","Upraviť parametre položky",module,Magento_Checkout
+Edit,Upraviť,module,Magento_Checkout
+"Remove item","Odstrániť položku",module,Magento_Checkout
+"You have no items in your shopping cart.","Nemáte žiadne položky vo vašom nákupnom košíku.",module,Magento_Checkout
+"Click <a href=""%1"">here</a> to continue shopping.","Kliknite <a href=""%1""> tu</a> pre pokračovanie v nákupe.",module,Magento_Checkout
+"Estimate Shipping and Tax","Odhad poštovného a dane",module,Magento_Checkout
+"Excl. Tax","Bez dane",module,Magento_Checkout
+Loading...,Načítávanie...,module,Magento_Checkout
+"Order #","Objednávka #",module,Magento_Checkout
+"Proceed to Checkout","Prejdite do pokladne",module,Magento_Checkout
+"Product Name","Názov produktu",module,Magento_Checkout
+"Incl. Tax","Vrátane dane",module,Magento_Checkout
 "Static Blocks","Statické bloky",module,Magento_Cms
 "Edit Block '%1'","Upraviť blok ""%1""",module,Magento_Cms
 "Block Information","Informácie bloku",module,Magento_Cms
@@ -502,7 +893,19 @@ Availability,Dostupnosť,module,Magento_Catalog
 Keywords,"Kľúčové slová",module,Magento_Cms
 Description,Popis,module,Magento_Cms
 "Save Currency Rates","Uložiť kurzy mien",module,Magento_CurrencySymbol
+Reset,Vynulovať,module,Magento_CurrencySymbol
+Import,Importovať,module,Magento_CurrencySymbol
+"Manage Currency Rates","Spravovať kurzy mien",module,Magento_CurrencySymbol
+"Import Service","Služba importu",module,Magento_CurrencySymbol
+"Save Currency Symbols","Uložiť symboly mien",module,Magento_CurrencySymbol
+"Currency Symbols","Symboly peňažných mien",module,Magento_CurrencySymbol
+"Use Standard","Použiť štandardné",module,Magento_CurrencySymbol
+"Please specify a correct Import Service.","Prosím zadajte správnu službu importu.",module,Magento_CurrencySymbol
+"Currency Rates","Kurzy mien",module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","Prosím, opravte vstupné údaje pre kurz %1 => %2",module,Magento_CurrencySymbol
+"All valid rates have been saved.","Všetky platné sadzby boli uložené.",module,Magento_CurrencySymbol
+System,Systém,module,Magento_CurrencySymbol
+"Old rate:","Pôvodné sadzby:",module,Magento_CurrencySymbol
 "You subscribe to our newsletter.","Prihlásili ste sa k odberu noviniek.",module,Magento_Customer
 "You have not set a default shipping address.","Nenastavili ste predvolenú dodaciu adresu.",module,Magento_Customer
 "You have not set a default billing address.","Nenastavili ste predvolenú fakturačnú adresu.",module,Magento_Customer
@@ -692,6 +1095,9 @@ Login,"Prihlásiť sa",module,Magento_Customer
 Gender,Pohlavie,module,Magento_Customer
 Name,Meno,module,Magento_Customer
 "Tax/VAT number",IČO/DIČ,module,Magento_Customer
+State/Province,Štát/provincia,module,Magento_Directory
+"Downloadable Information","Stiahnuteľná informácia",module,Magento_Downloadable
+"Attribute Properties","Vlastnosti atribútu",module,Magento_Eav
 "Add New Template","Pridať novú šablónu",module,Magento_Email
 "Transactional Emails","Transakčné emaily",module,Magento_Email
 Back,Späť,module,Magento_Email
@@ -747,11 +1153,39 @@ City,Mesto,module,Magento_Email
 "Invalid sender data","Neplatné údaje odosieľateľa",module,Magento_Email
 "Load default template","Načítať predvolenú šablónu",module,Magento_Email
 Template,Šablóna,module,Magento_Email
+"Change Encryption Key","Zmena šifrovacieho kľúča",module,Magento_EncryptionKey
+"Europe First Priority","Európa - prvá trieda",module,Magento_Fedex
+Dynamic,Dynamické,module,Magento_GoogleAdwords
+"Product View Optimization","Optimalizácia zobrazenia produktu",module,Magento_GoogleOptimizer
+"Grouped Products","Zoskupené produkty",module,Magento_GroupedProduct
+"Indexer Management","Riadenie indexovania",module,Magento_Indexer
+Integrations,Prepojenia,module,Magento_Integration
+No,Nie,module,Magento_LayeredNavigation
+"Change Billing Address","Zmena fakturačnej adresy",module,Magento_Multishipping
+"Delete Selected Problems","Odstrániť vybrané problémy",module,Magento_Newsletter
+"Make Check payable to:","Vyplatiť šek:",module,Magento_OfflinePayments
+Country,Krajina,module,Magento_OfflineShipping
+"We cannot retrieve the payment method model object.","Nemôžeme získať model objektu platobnej metódy.",module,Magento_Payment
+"Billing Agreements","Súhlasy fakturácie",module,Magento_Paypal
 "Items in Your Shopping Cart","Položky vo Vašom košíku",module,Magento_Paypal
 "Edit Shopping Cart","Upraviť košík",module,Magento_Paypal
+"Grand Total","Celkový súčet",module,Magento_Quote
+"Shipping & Handling (%1)","Poštovné a balné (%1)",module,Magento_Quote
+"Shipping & Handling","Poštovné a balné",module,Magento_Quote
+Shipping,Poštovné,module,Magento_Quote
+Subtotal,Medzisúčet,module,Magento_Quote
 "Shopping Cart","Nákupný košík",module,Magento_Reports
+Apply,Použiť,module,Magento_Rule
+"Cart Price Rules","Cenové pravidlá košíka",module,Magento_SalesRule
 "Shopping Cart","Nákupný košík",module,Magento_Sales
+"Invoice History","Fakturačná história",module,Magento_Sales
+"Save & Generate","Uložiť a vygenerovať",module,Magento_Sitemap
+"Add Tax","Pridať daň",module,Magento_Weee
 "Shop By","Nakupovať podľa",theme,frontend/Magento/luma
+Total:,Celkom:,module,Magento_Checkout
+"Add Products to New Option","Pridať produkty k novej možnosti",module,Magento_Bundle
+"Add Products to Option ""%1""","Pridať produkty k možnosti ""%1""",module,Magento_Bundle
+"Add Selected Products","Pridať vybrané produkty",module,Magento_Bundle
 Cancel,Zrušiť,module,Magento_Catalog
 "Configure Product","Konfigurácia produktu",module,Magento_Catalog
 "Select type of option.","Vyberte typ možnosti.",module,Magento_Catalog
@@ -770,16 +1204,140 @@ Severity,Závažnosť,module,Magento_AdminNotification
 "Date Added","Datum pridania",module,Magento_AdminNotification
 Message,Správa,module,Magento_AdminNotification
 Actions,Akcie,module,Magento_AdminNotification
+Enabled,Zapnuté,module,Magento_Authorizenet
+"Payment Action","Platobná akcia",module,Magento_Authorizenet
+Title,Nadpis,module,Magento_Authorizenet
+"Transaction Key","Transakčný kľúč",module,Magento_Authorizenet
+"Merchant MD5","MD5 obchodníka",module,Magento_Authorizenet
+"New Order Status","Stav novej objednávky",module,Magento_Authorizenet
+"Test Mode","Skúšobný mód",module,Magento_Authorizenet
+"Gateway URL","URL brány",module,Magento_Authorizenet
+"Accepted Currency","Akceptovaná mena",module,Magento_Authorizenet
+Debug,Ladenie,module,Magento_Authorizenet
+"Email Customer","E-mailovať zákazníkovi",module,Magento_Authorizenet
+"Merchant's Email","E-mail obchodníka",module,Magento_Authorizenet
+"Credit Card Types","Typy kreditnej karty",module,Magento_Authorizenet
+"Credit Card Verification","Overenie kreditnej karty",module,Magento_Authorizenet
+"Payment from Applicable Countries","Platba z dostupných krajín",module,Magento_Authorizenet
+"Payment from Specific Countries","Platba z vybratých krajín",module,Magento_Authorizenet
+"Minimum Order Total","Minimálna suma objednávky",module,Magento_Authorizenet
+"Maximum Order Total","Maximálna suma objednávky",module,Magento_Authorizenet
+"Sort Order","Zoradiť podľa",module,Magento_Authorizenet
+Services,Služby,module,Magento_Backend
+Advanced,Rozšírené,module,Magento_Backend
+"Disable Modules Output","Zakázať výstup modulov",module,Magento_Backend
+"Store Email Addresses","E-mailové adresy obchodu",module,Magento_Backend
+"Custom Email 1","Vlastný E-mail 1",module,Magento_Backend
+"Sender Email","Email odosielateľa",module,Magento_Backend
+"Sender Name","Meno odosielateľa",module,Magento_Backend
+"Custom Email 2","Vlastný E-mail 2",module,Magento_Backend
+"General Contact","Hlavný kontakt",module,Magento_Backend
+"Sales Representative","Obchodný zástupca",module,Magento_Backend
+"Customer Support","Zákaznícka podpora",module,Magento_Backend
+Design,Dizajn,module,Magento_Backend
 "Design Theme","Dizajn Motívu",module,Magento_Backend
 "User-Agent Exceptions","User-Agent výnimky",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","Vyhľadať reťazec v hlavičke user-agent klienta, a prejsť na špecifický motív dizajnu k danému prehľadači.",module,Magento_Backend
+Pagination,Stránkovanie,module,Magento_Backend
+"Pagination Frame","Rám stránkovania",module,Magento_Backend
 "If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","Pri veľkom počte stránok v katalógu je vhodné umožniť rýchly posun v zobrazených odkazoch.",module,Magento_Backend
+"Anchor Text for Previous","Text kotvy pre predchádzajúci",module,Magento_Backend
 "Alternative text for previous link in pagination menu. If empty, default arrow image will used.","Alternatívny text pre predchádzajúci odkaz v stránkovani. Nechajte prázdne pre použitie predvoleného obrázku(šípky).",module,Magento_Backend
+"Anchor Text for Next","Text kotvy pre následujúci",module,Magento_Backend
 "Alternative text for next link in pagination menu. If empty, default arrow image will used.","Alternatívny text pre následujúci odkaz v stránkovani. Nechajte prázdne pre použitie predvoleného obrázku(šípky).",module,Magento_Backend
+Developer,Programátor,module,Magento_Backend
+Debug,Ladenie,module,Magento_Backend
+"Enabled Template Path Hints for Storefront","Zobraziť cesty a názvy šablon v obchode",module,Magento_Backend
+"Enabled Template Path Hints for Admin","Zobraziť cesty a názvy šablon v administrácii",module,Magento_Backend
+"Add Block Names to Hints","Pridať názvy blokov k šablonám",module,Magento_Backend
+"Template Settings","Nastavenia šablóny",module,Magento_Backend
+"Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Upozornenie! Zapnutie tejto funkcie sa na produkčnom prostredí neodporúča, pretože predstavuje možné riziko zabezpečenia.",module,Magento_Backend
+"Minify Html","Minimalizovať HTML",module,Magento_Backend
+"Translate Inline","Živý preklad",module,Magento_Backend
+"Enabled for Storefront","Povoliť v obchode",module,Magento_Backend
+"Enabled for Admin","Povoliť v administrácii",module,Magento_Backend
+"Translate, blocks and other output caches should be disabled for both Storefront and Admin inline translations.","Vyrovnávacia pamäť pre: preklad, bloky a dašie by mali byť zakázané počas používania ""Živého prekladu"".",module,Magento_Backend
+"JavaScript Settings","Nastavenia JavaScriptu",module,Magento_Backend
+"Merge JavaScript Files","Zlúčiť súbory JavaScript",module,Magento_Backend
 "Enable Javascript Bundling","Povoliť zoskupenie Javascriptu",module,Magento_Backend
+"Minify JavaScript Files","Minimalizovať súbory JavaScript",module,Magento_Backend
+"CSS Settings","Nastavenia CSS",module,Magento_Backend
+"Merge CSS Files","Zlúčiť súbory CSS",module,Magento_Backend
+"Minify CSS Files","Minimalizovať CSS súbory",module,Magento_Backend
+"Image Processing Settings","Nastavenia spracovania obrázkov",module,Magento_Backend
+"Image Adapter","Obrazový adaptér",module,Magento_Backend
+"Static Files Settings","Nastavenia statických súborov",module,Magento_Backend
+"Sign Static Files","Podpísať statické súbory",module,Magento_Backend
+"Country Options","Možnosti krajiny",module,Magento_Backend
+"Allow Countries","Povolené krajiny",module,Magento_Backend
+"Default Country","Predvolená krajina",module,Magento_Backend
+"European Union Countries","Krajiny Európskej únie",module,Magento_Backend
+"Top destinations","Naj destinácie",module,Magento_Backend
+"Locale Options","Miestne voľby (locale)",module,Magento_Backend
+Timezone,"Časové pásmo",module,Magento_Backend
+"First Day of Week","Prvý deň v týždni",module,Magento_Backend
+"Weekend Days","Víkendové dni",module,Magento_Backend
+"Store Name","Názov obchodu",module,Magento_Backend
+"Store Phone Number","Telefonícký kontakt obchodu",module,Magento_Backend
+"Store Hours of Operation","Otváracie hodiny obchodu",module,Magento_Backend
+Country,Krajina,module,Magento_Backend
+Region/State,Kraj/štát,module,Magento_Backend
+"ZIP/Postal Code","Poštové smerovacie číslo",module,Magento_Backend
+City,Mesto,module,Magento_Backend
+"Street Address",Ulica,module,Magento_Backend
+"Street Address Line 2","2. riadok adresy",module,Magento_Backend
 "VAT Number",DIČ,module,Magento_Backend
+"Single-Store Mode","Režim jediného obchodu",module,Magento_Backend
+"Enable Single-Store Mode","Zapnúť režim jediného obchodu",module,Magento_Backend
+"This setting will not be taken into account if system has more than one store view.","Toto nastavenie nebude akceptované, ak má systém viac ako jedno zobrazenie obchodu.",module,Magento_Backend
+"Mail Sending Settings","Bastavenia odosielania e-mailu",module,Magento_Backend
+"Disable Email Communications","Zakázať komunikáciu cez e-mail",module,Magento_Backend
+Host,Server,module,Magento_Backend
+"Set Return-Path","Nastaviť spatnú adresu",module,Magento_Backend
+"Return-Path Email","Spatná adresa (e-mail)",module,Magento_Backend
+"Forgot Password Email Template","Šablóna e-mailu pre zabudnuté heslo",module,Magento_Backend
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Šablóna pre e-mail zvolená spätnou kompatibilitou motívu keď ""Predvolená"" možnosť je nastavená.",module,Magento_Backend
+"Forgot and Reset Email Sender","Odosielať správy pre obnovu či zabudnuté heslo",module,Magento_Backend
 "Recovery Link Expiration Period (days)","Doba platnosti odkazu obnovy (dni)",module,Magento_Backend
+"Please enter a number 1 or greater in this field.","Do tohto poľa zadajte číslo 1 alebo väčšie.",module,Magento_Backend
+"Startup Page","Stránka pri spustení",module,Magento_Backend
+"Admin Base URL","Základná adresa (URL) administrácie",module,Magento_Backend
+"Use Custom Admin URL","Použiť odlišnú adresu URL pre administráciu",module,Magento_Backend
+"Custom Admin URL","Odlišná adresa pre administráciu",module,Magento_Backend
+"Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","Uistite sa, že základné URL končí lomitkom ""/"", napr. http://vasadomena.net/mage/",module,Magento_Backend
+"Use Custom Admin Path","Použiť odlišnú cestu pre administráciu",module,Magento_Backend
+"Custom Admin Path","Odlišná cesta pre administráciu",module,Magento_Backend
+Security,Zabezpečenie,module,Magento_Backend
+"Add Secret Key to URLs","Pridať tajný kľúč k webovým adresám",module,Magento_Backend
+"Login is Case Sensitive","Prihlásovacie údaje rozlišujé malé a velké písmo",module,Magento_Backend
+"Admin Session Lifetime (seconds)","Životnosť relácie v administrácii (v sekundách)",module,Magento_Backend
 "Values less than 60 are ignored.","Hodnoty menšie ako 60 sú ignorované.",module,Magento_Backend
+"Enable Charts","Povoliť grafy",module,Magento_Backend
+"Url Options","Nastavenia URL",module,Magento_Backend
+"Add Store Code to Urls","Pridať kód obchodu do URL",module,Magento_Backend
+"Auto-redirect to Base URL","Automatické presmerovanie na základnú URL",module,Magento_Backend
+"Search Engine Optimization","Optimalizácia pre vyhľadávače",module,Magento_Backend
+"Use Web Server Rewrites","Použiť prepisy adries (rewrite)",module,Magento_Backend
+"Base URLs","Základné URL",module,Magento_Backend
+"Base URL","Základná URL",module,Magento_Backend
+"Specify URL or {{base_url}} placeholder.","Zadajte adresu URL alebo {{base_url}} zástupný symbol.",module,Magento_Backend
+"Base Link URL","Základný odkaz URL",module,Magento_Backend
+"Base URL for Static View Files","Základné URL zobrazenie statických súborov",module,Magento_Backend
+"Default Pages","Predvolené stránky",module,Magento_Backend
+"Default Web URL","Predvolenú adresa URL",module,Magento_Backend
+"Default No-route URL","Predvolená adresa neexistujúcej stránky",module,Magento_Backend
+"Session Validation Settings","Nastavenie overenia relácie",module,Magento_Backend
+"Validate REMOTE_ADDR","Overiť REMOTE_ADDR",module,Magento_Backend
+"Validate HTTP_VIA","Overiť HTTP_VIA",module,Magento_Backend
+"Validate HTTP_X_FORWARDED_FOR","Overiť HTTP_X_FORWARDED_FOR",module,Magento_Backend
+"Validate HTTP_USER_AGENT","Overiť HTTP_USER_AGENT",module,Magento_Backend
+"Use SID on Storefront","Použitie SID v obchode",module,Magento_Backend
+"Allows customers to stay logged in when switching between different stores.","Umožňuje zákazníkom zostať prihlásený pri prepínaní medzi rôznymi obchodmi.",module,Magento_Backend
+"Cache Type","Typ vyrovnávacej pamäte",module,Magento_Backend
+Description,Popis,module,Magento_Backend
+Tags,Značky,module,Magento_Backend
+"<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">chyba 404 </h1> <p>Stránka nenájdená.</p>",module,Magento_Backend
+"Community Edition","Komunitná edícia",module,Magento_Backend
 "Backup Type","Typ zálohovania",module,Magento_Backup
 "Start Time","Čas začiatku",module,Magento_Backup
 Frequency,Frekvencia,module,Magento_Backup
@@ -797,10 +1355,18 @@ Action,Akcia,module,Magento_Backup
 "Allow Duplicate Cards","Povoliť duplicitné karty",module,Magento_Braintree
 "Your Kount ID","Vaše Kount ID",module,Magento_Braintree
 "Use Cache","Používanie vyrovnávacej pamäte",module,Magento_Braintree
+"Enable CAPTCHA in Admin","Povoliť CAPTCHA v Administrácii",module,Magento_Captcha
 Font,Písmo,module,Magento_Captcha
 Forms,Formuláre,module,Magento_Captcha
 "Displaying Mode","Režim zobrazenia",module,Magento_Captcha
+"Number of Unsuccessful Attempts to Login","Počet neúspešných pokusov o prihlásenie",module,Magento_Captcha
+"If 0 is specified, CAPTCHA on the Login form will be always available.","Ak je zadaná 0, CAPTCHA na formulári prihlásiť bude vždy k dispozícii.",module,Magento_Captcha
 "CAPTCHA Timeout (minutes)","Časový limit pre CAPTCHA (minút)",module,Magento_Captcha
+"Number of Symbols","Počet symbolov",module,Magento_Captcha
+"Symbols Used in CAPTCHA","Symboly použité v CAPTCHA",module,Magento_Captcha
+"Case Sensitive","Rozlišovať malé a veľké písmená",module,Magento_Captcha
+"Enable CAPTCHA on Storefront","Povoliť CAPTCHA v obchode",module,Magento_Captcha
+"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Ak to povolíte, formuláre ""Vytvoriť užívateľa"" a ""Zabudnuté heslo"" budú vždy vyžadovať CAPTCHAu.",module,Magento_Captcha
 Inventory,Inventár,module,Magento_CatalogInventory
 "Stock Options","Možnosti zásob",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","Znižovať stav zásob podľa objednávok",module,Magento_CatalogInventory
@@ -816,6 +1382,11 @@ Backorders,Do-objednávky,module,Magento_CatalogInventory
 "Notify for Quantity Below","Upozorniť na množstvo nižšie",module,Magento_CatalogInventory
 "Enable Qty Increments","Povoliť množstvo po krokoch",module,Magento_CatalogInventory
 "Qty Increments","Množstevný krok",module,Magento_CatalogInventory
+"Popular Search Terms","Často vyhľadávané výrazy",module,Magento_CatalogSearch
+"Catalog Search","Katalóg vyhľadávania",module,Magento_CatalogSearch
+"Minimal Query Length","Minimálna dĺžka dotazu",module,Magento_CatalogSearch
+"Maximum Query Length","Maximálna dĺžka dotazu",module,Magento_CatalogSearch
+"Rebuild Catalog product fulltext search index","Obnoviť indexy pre fulltextové vyhľadávanie v katalógu produktov",module,Magento_CatalogSearch
 "Product Fields Auto-Generation","Samotvorba políčok produktu",module,Magento_Catalog
 "Mask for SKU","Predefinované katalogového čísla",module,Magento_Catalog
 "Use {{name}} as Product Name placeholder","Použite {{name}} ako zástupný reťazec pre Názov produktu",module,Magento_Catalog
@@ -900,6 +1471,22 @@ none,žiadna,module,Magento_Catalog
 Overview,Prehľad,module,Magento_Catalog
 Details,Podrobnosti,module,Magento_Catalog
 "Require Customer To Be Logged In To Checkout","Pre dokončenie nákup je zapotreby sa prihlásiť",module,Magento_Checkout
+"Quote Lifetime (days)","Životnosť košíku (dní)",module,Magento_Checkout
+"After Adding a Product Redirect to Shopping Cart","Po pridaní produktu presmerovať do nákupného košíka",module,Magento_Checkout
+"My Cart Link","Odkaz na Môj košík",module,Magento_Checkout
+"Display Cart Summary","Zobraziť zhrnutie košíka",module,Magento_Checkout
+"Shopping Cart Sidebar","Postranný panel nákupného košíka",module,Magento_Checkout
+"Display Shopping Cart Sidebar","Zobraziť Postranný panel nákupného košíka",module,Magento_Checkout
+"Payment Failed Emails","Emaily pre neprevedenú platbu",module,Magento_Checkout
+"Payment Failed Email Sender","Odosielateľ Emailu pre neprevedenú platbu",module,Magento_Checkout
+"Payment Failed Email Receiver","Príjemca Emailu pre neprevedenú platbu",module,Magento_Checkout
+"Payment Failed Template","Šablóna pre neprevedenú platbu",module,Magento_Checkout
+"Send Payment Failed Email Copy To","Odoslať kopiu Emailu pre neprevedenú platbu na",module,Magento_Checkout
+"Separate by "","".","Oddelte čiarkou "","".",module,Magento_Checkout
+"Send Payment Failed Email Copy Method","Odoslať kopiu Emailu pre neprevedenú platbu metódou",module,Magento_Checkout
+"Cart Subtotal","Medzisúčet košíku",module,Magento_Checkout
+"Not yet calculated","Zatiaľ nevypočítané",module,Magento_Checkout
+"Thank you for your purchase!","Ďakujeme za váš nákup!",module,Magento_Checkout
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (naplánované úlohy) - všetky časy sú v minútach",module,Magento_Cron
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","Pre vytovrenie správnych URL odkazov z CRON skriptov, skontrolujte, že sú správne nastavené adresy pre nezabezpečené a zabezpečené stránky (Web -> domovská adresa -> zabezpečená a nezabezpečená).",module,Magento_Cron
 "Customer Configuration","Nastavenie zákazníka",module,Magento_Customer
