@@ -1772,10 +1772,12 @@ Password:,Heslo:,module,Magento_Customer
 "If you requested this change, set a new password here:","Ak ste požiadali o túto zmenu, nastavte nová heslo tu:",module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Ak ste nepreviedli tento požiadavok, môžete tento email ignorovať a heslo zostane nezmenené.",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","Obdržali sme požiadavku zmeniť následujúcu informáciu spojenú s vašim účtom u %store_name: heslo.",module,Magento_Customer
+"Checkout out as a new customer","Nakúpiť ako nový zákazník",module,Magento_Customer
 "Creating an account has many benefits:","Vytvorenie účtu má veľa výhod:",module,Magento_Customer
 "See order and shipping status","Sledovať stav objednávky a zásielky",module,Magento_Customer
 "Track order history","Sledovať históriu objednávky",module,Magento_Customer
 "Check out faster","Rýchlejší nákup",module,Magento_Customer
+"Checkout out using your account","Nakúpiť za pomoci vašeho účtu",module,Magento_Customer
 "Email Address","E-mailová adresa",module,Magento_Customer
 "Thank you, %store_name","Ďakujeme Vám, %store_name",module,Magento_Email
 "Changes have been made to this section that have not been saved.","V tejto časti boli vykonané zmeny ktoré ešte neboli uložené.",module,Magento_Ui
