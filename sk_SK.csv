@@ -1163,6 +1163,18 @@ Integrations,Prepojenia,module,Magento_Integration
 No,Nie,module,Magento_LayeredNavigation
 "Change Billing Address","Zmena fakturačnej adresy",module,Magento_Multishipping
 "Delete Selected Problems","Odstrániť vybrané problémy",module,Magento_Newsletter
+"Unsubscribe Selected","Odhlásiť sa z vybratých",module,Magento_Newsletter
+Back,Späť,module,Magento_Newsletter
+Reset,Obnoviť,module,Magento_Newsletter
+Subject,Predmet,module,Magento_Newsletter
+"Sender Name","Meno odosielateľa",module,Magento_Newsletter
+"Sender Email","Email odosielateľa",module,Magento_Newsletter
+Message,Správa,module,Magento_Newsletter
+"Save As","Uložiť ako",module,Magento_Newsletter
+"Save Template","Uložiť šablónu",module,Magento_Newsletter
+"Something went wrong while saving your subscription.","Pri ukladaní vášho odberu došlo k chybe.",module,Magento_Newsletter
+"We saved the subscription.","Váš odber bol uložený.",module,Magento_Newsletter
+Subscribe,"Prihlásiť sa k odberu",module,Magento_Newsletter
 "Make Check payable to:","Vyplatiť šek:",module,Magento_OfflinePayments
 Country,Krajina,module,Magento_OfflineShipping
 "We cannot retrieve the payment method model object.","Nemôžeme získať model objektu platobnej metódy.",module,Magento_Payment
@@ -1509,6 +1521,7 @@ Updated,Aktualizované,module,Magento_Email
 Subject,Predmet,module,Magento_Email
 "Template Type","Typ šablóny",module,Magento_Email
 Action,Akcia,module,Magento_Email
+Unsubscribed,"Odhlásiť sa",module,Magento_Newsletter
 "Log JS Errors to Session Storage","Zaznamenať chyby JS aby úložiska Sesssion",module,Magento_Ui
 "Log JS Errors to Session Storage Key","Zaznamenať chyby JS aby kľuča úložiska Sesssion",module,Magento_Ui
 Summary,Zhrnutie,theme,frontend/Magento/blank
