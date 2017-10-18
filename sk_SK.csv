@@ -1646,6 +1646,19 @@ Synchronize,Synchronizovať,module,Magento_MediaStorage
 "To see product price, add this item to your cart. You can always remove it later.","Pre zobrazenie ceny vložte do košíka. Neskôr to môžete z neho odstrániť.",module,Magento_Msrp
 "Change Billing Address","Zmena fakturačnej adresy",module,Magento_Multishipping
 "Delete Selected Problems","Odstrániť vybrané problémy",module,Magento_Newsletter
+"Unsubscribe Selected","Odhlásiť sa z vybratých",module,Magento_Newsletter
+Back,Späť,module,Magento_Newsletter
+Reset,Obnoviť,module,Magento_Newsletter
+Subject,Predmet,module,Magento_Newsletter
+"Sender Name","Meno odosielateľa",module,Magento_Newsletter
+"Sender Email","Email odosielateľa",module,Magento_Newsletter
+Message,Správa,module,Magento_Newsletter
+"Save As","Uložiť ako",module,Magento_Newsletter
+"Save Template","Uložiť šablónu",module,Magento_Newsletter
+"Something went wrong while saving your subscription.","Pri ukladaní vášho odberu došlo k chybe.",module,Magento_Newsletter
+"We saved the subscription.","Váš odber bol uložený.",module,Magento_Newsletter
+"You unsubscribed.","Boli ste odhlásený z odberu noviniek.",module,Magento_Newsletter
+Subscribe,"Prihlásiť sa k odberu",module,Magento_Newsletter
 "Make Check payable to:","Vyplatiť šek:",module,Magento_OfflinePayments
 Country,Krajina,module,Magento_OfflineShipping
 "We cannot retrieve the payment method model object.","Nemôžeme získať model objektu platobnej metódy.",module,Magento_Payment
@@ -2217,6 +2230,7 @@ Updated,Aktualizované,module,Magento_Email
 Subject,Predmet,module,Magento_Email
 "Template Type","Typ šablóny",module,Magento_Email
 Action,Akcia,module,Magento_Email
+Unsubscribed,"Odhlásiť sa",module,Magento_Newsletter
 "Display on Shopping Cart","Zobraziť v košíku",module,Magento_Paypal
 Synonym,Synonymum,module,Magento_Search
 "Log JS Errors to Session Storage","Zaznamenať chyby JS aby úložiska Sesssion",module,Magento_Ui
