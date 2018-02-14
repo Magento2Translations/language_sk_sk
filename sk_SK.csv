@@ -293,7 +293,6 @@ YTD,"Tento rok",module,Magento_Backend
 "Admin session lifetime must be greater than or equal to 60 seconds","Životnosť relácie v administrácii musí byť väčšia alebo rovná 60 sekúnd",module,Magento_Backend
 Order,Objednávka,module,Magento_Backend
 "Order #%1","Objednávka #%1",module,Magento_Backend
-"Access denied","Prístup zamietnutý",module,Magento_Backend
 "Welcome, please sign in","Vitajte, prosím prihláste sa",module,Magento_Backend
 Username,"Meno používateľa",module,Magento_Backend
 "user name","meno používateľa",module,Magento_Backend
@@ -1210,7 +1209,6 @@ Checkout,Objednať,module,Magento_Checkout
 "Error message!","Chybové hlásenie!",module,Magento_Checkout
 Error!,Chyba!,module,Magento_Checkout
 Message,Správa,module,Magento_Checkout
-"<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Tlač potvrdenia</a>",module,Magento_Checkout
 Item,Položka,module,Magento_Checkout
 Price,Cena,module,Magento_Checkout
 Qty,Množstvo,module,Magento_Checkout
