@@ -1126,6 +1126,24 @@ Loading...,Načítávanie...,module,Magento_Catalog
 "* Required Fields","* Povinné políčka",module,Magento_Catalog
 Availability,Dostupnosť,module,Magento_Catalog
 "Terms and Conditions","Zmluvné podmienky",module,Magento_CheckoutAgreements
+"Add New Condition","Pridať nové podmienky",module,Magento_CheckoutAgreements
+"Save Condition","Uložiť podmienky",module,Magento_CheckoutAgreements
+"Delete Condition","Vymazať podmienky",module,Magento_CheckoutAgreements
+"Edit Terms and Conditions","Upraviť zmluvné podmienky",module,Magento_CheckoutAgreements
+"New Terms and Conditions","Nové zmluvné podmienky",module,Magento_CheckoutAgreements
+"Terms and Conditions Information","Údaje zmluvných podmienok",module,Magento_CheckoutAgreements
+"Condition Name",Názov,module,Magento_CheckoutAgreements
+Status,Stav,module,Magento_CheckoutAgreements
+Enabled,Zapnuté,module,Magento_CheckoutAgreements
+Disabled,Vypnuté,module,Magento_CheckoutAgreements
+"Show Content as","Zobraziť obsah ako",module,Magento_CheckoutAgreements
+Applied,Aplikované,module,Magento_CheckoutAgreements
+"Store View","Pohľad obchodu",module,Magento_CheckoutAgreements
+"Checkbox Text","Checkbox text",module,Magento_CheckoutAgreements
+Content,Obsah,module,Magento_CheckoutAgreements
+"Content Height (css)","Výška obsahu (css)",module,Magento_CheckoutAgreements
+"Content Height","Výška obsahu",module,Magento_CheckoutAgreements
+Condition,Podmienky,module,Magento_CheckoutAgreements
 "Shopping Cart","Nákupný košík",module,Magento_Checkout
 "Invalid method: %1","Neplatná metóda: %1",module,Magento_Checkout
 City,Mesto,module,Magento_Checkout
@@ -1239,7 +1257,15 @@ Details,Podrobnosti,module,Magento_Cms
 "Page not found.","Stránka sa nenašla.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Ďakujeme že ste nám zaslali Váš názor. V prípade dotazu Vás budeme čoskoro kontaktovať.",module,Magento_Contact
 "We can't process your request right now. Sorry, that's all we know.","Váš požiadavok momentálne nedokážeme spracovať. Bohužiaľ viac v tejto chvíli nemáme viac informácií.",module,Magento_Contact
+"* Required Fields","* Povinné políčka",module,Magento_Contact
+"Write Us","Napíšte nám",module,Magento_Contact
+Name,Meno,module,Magento_Contact
+"Phone Number","Telefónne číslo",module,Magento_Contact
+"What’s on your mind?","Čo máte na mysli?",module,Magento_Contact
+Submit,Odoslať,module,Magento_Contact
 "Invalid domain name: %1","Neplatný názov domény: %1",module,Magento_Cookie
+"<a href=""%1"">Learn more</a>.","<a href=""%1""> Zistiť viac</a>.",module,Magento_Cookie
+"Allow Cookies","Povoliť súbory cookie",module,Magento_Cookie
 "We can't save the cron expression.","Nieje možné uložiť Cron výraz.",module,Magento_Cron
 "Invalid cron expression, expecting 'from-to' structure: %1","Neplatný cron výraz, predpokladaná ""od-do"" štruktúra: %1",module,Magento_Cron
 "Save Currency Rates","Uložiť kurzy mien",module,Magento_CurrencySymbol
@@ -1962,6 +1988,7 @@ City,Mesto,module,Magento_Backend
 Host,Server,module,Magento_Backend
 "Set Return-Path","Nastaviť spatnú adresu",module,Magento_Backend
 "Return-Path Email","Spatná adresa (e-mail)",module,Magento_Backend
+Admin,Správca,module,Magento_Backend
 "Forgot Password Email Template","Šablóna e-mailu pre zabudnuté heslo",module,Magento_Backend
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Šablóna pre e-mail zvolená spätnou kompatibilitou motívu keď ""Predvolená"" možnosť je nastavená.",module,Magento_Backend
 "Forgot and Reset Email Sender","Odosielať správy pre obnovu či zabudnuté heslo",module,Magento_Backend
@@ -2171,6 +2198,7 @@ Disable,Zakázať,module,Magento_Catalog
 none,žiadna,module,Magento_Catalog
 Overview,Prehľad,module,Magento_Catalog
 Details,Podrobnosti,module,Magento_Catalog
+"Enable Terms and Conditions","Zapnúť Zmluvné podmienky",module,Magento_CheckoutAgreements
 "Require Customer To Be Logged In To Checkout","Pre dokončenie nákup je zapotreby sa prihlásiť",module,Magento_Checkout
 "Quote Lifetime (days)","Životnosť košíku (dní)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","Po pridaní produktu presmerovať do nákupného košíka",module,Magento_Checkout
@@ -2194,6 +2222,11 @@ Payment,Platba,module,Magento_Checkout
 "Not yet calculated","Zatiaľ nevypočítané",module,Magento_Checkout
 "We received your order!","Dostali sme vašu objednávku!",module,Magento_Checkout
 "Thank you for your purchase!","Ďakujeme za váš nákup!",module,Magento_Checkout
+Contacts,Kontakty,module,Magento_Contact
+"Contact Us","Kontaktujte nás",module,Magento_Contact
+"Enable Contact Us","Povoliť kontaktujte nás",module,Magento_Contact
+"Email Sender","Odosielateľ emailu",module,Magento_Contact
+"Email Template","Šablóny emailov",module,Magento_Contact
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (naplánované úlohy) - všetky časy sú v minútach",module,Magento_Cron
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","Pre vytovrenie správnych URL odkazov z CRON skriptov, skontrolujte, že sú správne nastavené adresy pre nezabezpečené a zabezpečené stránky (Web -> domovská adresa -> zabezpečená a nezabezpečená).",module,Magento_Cron
 "Customer Configuration","Nastavenie zákazníka",module,Magento_Customer
