@@ -878,6 +878,7 @@ All,Všetky,module,Magento_Catalog
 Manual,Ručne,module,Magento_Catalog
 Fixed,Nemenné,module,Magento_Catalog
 Percent,Percentá,module,Magento_Catalog
+Discount,Zľava,module,Magento_Catalog
 "-- Please select --","-- Prosím vyberte --",module,Magento_Catalog
 "Product Thumbnail Itself","Náhľad produktu, vlastný",module,Magento_Catalog
 "Parent Product Thumbnail","Náhľad nadradeného produktu",module,Magento_Catalog
@@ -1030,6 +1031,7 @@ Required,Požadované,module,Magento_Catalog
 "This item has no weight","Táto položka nemá hmotnosť",module,Magento_Catalog
 "Set Product as New From","Nastaviť produkt ako nový od",module,Magento_Catalog
 "Related Products, Up-Sells, and Cross-Sells","Podobné, hodotnejšie a zaujmavé produkty",module,Magento_Catalog
+"Related products are shown to customers in addition to the item the customer is looking at.","Súvisiace produkty sa zobrazujú nakupujúcému vo spojení s položkou, na ktorú sa nakupujúci prezera.",module,Magento_Catalog
 "Add Related Products","Pridať súvisiace produkty",module,Magento_Catalog
 "An up-sell item is offered to the customer as a pricier or higher-quality alternative to the product the customer is looking at.","Produkt ""hodnotnejšia varianta"" zobrazí zákazníkovy cennejšiu alebo kvalitnejšiu alternatívu k produktu na ktorý práve pozerá.",module,Magento_Catalog
 "Add Up-Sell Products","Pridať ""hodnotnejšie varianty""",module,Magento_Catalog
@@ -1157,6 +1159,24 @@ Loading...,Načítávanie...,module,Magento_Catalog
 "* Required Fields","* Povinné políčka",module,Magento_Catalog
 Availability,Dostupnosť,module,Magento_Catalog
 "Terms and Conditions","Zmluvné podmienky",module,Magento_CheckoutAgreements
+"Add New Condition","Pridať nové podmienky",module,Magento_CheckoutAgreements
+"Save Condition","Uložiť podmienky",module,Magento_CheckoutAgreements
+"Delete Condition","Vymazať podmienky",module,Magento_CheckoutAgreements
+"Edit Terms and Conditions","Upraviť zmluvné podmienky",module,Magento_CheckoutAgreements
+"New Terms and Conditions","Nové zmluvné podmienky",module,Magento_CheckoutAgreements
+"Terms and Conditions Information","Údaje zmluvných podmienok",module,Magento_CheckoutAgreements
+"Condition Name",Názov,module,Magento_CheckoutAgreements
+Status,Stav,module,Magento_CheckoutAgreements
+Enabled,Zapnuté,module,Magento_CheckoutAgreements
+Disabled,Vypnuté,module,Magento_CheckoutAgreements
+"Show Content as","Zobraziť obsah ako",module,Magento_CheckoutAgreements
+Applied,Aplikované,module,Magento_CheckoutAgreements
+"Store View","Pohľad obchodu",module,Magento_CheckoutAgreements
+"Checkbox Text","Checkbox text",module,Magento_CheckoutAgreements
+Content,Obsah,module,Magento_CheckoutAgreements
+"Content Height (css)","Výška obsahu (css)",module,Magento_CheckoutAgreements
+"Content Height","Výška obsahu",module,Magento_CheckoutAgreements
+Condition,Podmienky,module,Magento_CheckoutAgreements
 "Shopping Cart","Nákupný košík",module,Magento_Checkout
 "Invalid method: %1","Neplatná metóda: %1",module,Magento_Checkout
 City,Mesto,module,Magento_Checkout
@@ -1252,7 +1272,19 @@ Loading...,Načítávanie...,module,Magento_Checkout
 "You can't add the item to shopping cart.","Nemôžete pridávať položku do nákupného košíka.",module,Magento_ConfigurableProduct
 "Page not found.","Stránka sa nenašla.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Ďakujeme že ste nám zaslali Váš názor. V prípade dotazu Vás budeme čoskoro kontaktovať.",module,Magento_Contact
+"An error occurred while processing your form. Please try again later.","Počas spracovania formulára sa vyskytla chyba. Skúste znova neskôr.",module,Magento_Contact
+"Name is missing","Chýba meno",module,Magento_Contact
+"Comment is missing","Chýba komentár",module,Magento_Contact
+"Invalid email address","Neplatná e-mailová adresa",module,Magento_Contact
+"* Required Fields","* Povinné políčka",module,Magento_Contact
+"Write Us","Napíšte nám",module,Magento_Contact
+Name,Meno,module,Magento_Contact
+"Phone Number","Telefónne číslo",module,Magento_Contact
+"What’s on your mind?","Čo máte na mysli?",module,Magento_Contact
+Submit,Odoslať,module,Magento_Contact
 "Invalid domain name: %1","Neplatný názov domény: %1",module,Magento_Cookie
+"<a href=""%1"">Learn more</a>.","<a href=""%1""> Zistiť viac</a>.",module,Magento_Cookie
+"Allow Cookies","Povoliť súbory cookie",module,Magento_Cookie
 "We can't save the cron expression.","Nieje možné uložiť Cron výraz.",module,Magento_Cron
 "Invalid cron expression, expecting 'from-to' structure: %1","Neplatný cron výraz, predpokladaná ""od-do"" štruktúra: %1",module,Magento_Cron
 "Save Currency Rates","Uložiť kurzy mien",module,Magento_CurrencySymbol
@@ -1280,6 +1312,8 @@ System,Systém,module,Magento_CurrencySymbol
 "We can't find that email and website combination.","Nepodarilo sa nájsť záznam odpovedajúci zadanej kombinácii emailu a stránky.",module,Magento_CustomerImportExport
 "Sign Out","Odhlásiť sa",module,Magento_Customer
 "Sign In","Prihlásiť sa",module,Magento_Customer
+"You are subscribed to our newsletter.","Prihlásili ste sa k odberu noviniek.",module,Magento_Customer
+"You aren't subscribed to our newsletter.","Nieste prihlásený k odberu noviniek.",module,Magento_Customer
 "You have not set a default shipping address.","Nenastavili ste predvolenú dodaciu adresu.",module,Magento_Customer
 "You have not set a default billing address.","Nenastavili ste predvolenú fakturačnú adresu.",module,Magento_Customer
 "Address Book",Adresár,module,Magento_Customer
@@ -1433,6 +1467,7 @@ Customers,Zákazníci,module,Magento_Customer
 "No confirmation needed.","Potvrdenie nieje potrebné.",module,Magento_Customer
 "Account already active","Účet už je aktívny",module,Magento_Customer
 "Invalid confirmation token","Neplatný token potvrdenia",module,Magento_Customer
+"The account is locked.","Vaše konto je zablokované.",module,Magento_Customer
 "This account is not confirmed.","Tento účet nieje potvrdený.",module,Magento_Customer
 "Please enter a password with at least %1 characters.","Prosím zadajte heslo s minimálne %1 znakmi.",module,Magento_Customer
 "The password can't begin or end with a space.","Heslo nemôže začať alebo končiť medzerou.",module,Magento_Customer
@@ -1747,6 +1782,7 @@ Login,"Prihlásiť sa",module,Magento_Checkout
 Remove,Odstrániť,module,Magento_Checkout
 "Cart Subtotal","Medzisúčet košíku",module,Magento_Checkout
 "Payment Information","Informácie o platbe",module,Magento_Checkout
+"Contact Form","Kontaktný formulár",module,Magento_Contact
 "Welcome to %store_name.","Vitajte na %store_name.",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Pre prihlásenie sa na naších stránkach, zadajte údaje v procesu objednávky alebo na stránke <a href=""%customer_url"">Môj účet</a>:",module,Magento_Customer
 Email:,E-mail:,module,Magento_Customer
@@ -1777,7 +1813,7 @@ Password:,Heslo:,module,Magento_Customer
 "See order and shipping status","Sledovať stav objednávky a zásielky",module,Magento_Customer
 "Track order history","Sledovať históriu objednávky",module,Magento_Customer
 "Check out faster","Rýchlejší nákup",module,Magento_Customer
-"Checkout out using your account","Nakúpiť za pomoci vašeho účtu",module,Magento_Customer
+"Checkout out using your account","Nakúpiť za pomoci vášho účtu",module,Magento_Customer
 "Email Address","E-mailová adresa",module,Magento_Customer
 "Thank you, %store_name","Ďakujeme Vám, %store_name",module,Magento_Email
 "Changes have been made to this section that have not been saved.","V tejto časti boli vykonané zmeny ktoré ešte neboli uložené.",module,Magento_Ui
@@ -1840,6 +1876,7 @@ Submit,Potvrdiť,module,Magento_Catalog
 Adding...,Pridávanie...,module,Magento_Catalog
 Added,Pridané,module,Magento_Catalog
 "unselect all","zrušiť výber všetkých",module,Magento_Catalog
+Close,Zavrieť,module,Magento_CheckoutAgreements
 "We don't recognize or support this file extension type.","Nerozpoznaný alebo nepodporovaný typ súboru.",module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","Ste si istí, že chcete to chcete urobiť?",module,Magento_Customer
 "Are you sure you want to delete this address?","Ste si istí, že chcete odstrániť túto adresu?",module,Magento_Customer
@@ -2030,6 +2067,7 @@ City,Mesto,module,Magento_Backend
 Host,Server,module,Magento_Backend
 "Set Return-Path","Nastaviť spatnú adresu",module,Magento_Backend
 "Return-Path Email","Spatná adresa (e-mail)",module,Magento_Backend
+Admin,Správca,module,Magento_Backend
 "Forgot Password Email Template","Šablóna e-mailu pre zabudnuté heslo",module,Magento_Backend
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Šablóna pre e-mail zvolená spätnou kompatibilitou motívu keď ""Predvolená"" možnosť je nastavená.",module,Magento_Backend
 "Forgot and Reset Email Sender","Odosielať správy pre obnovu či zabudnuté heslo",module,Magento_Backend
@@ -2287,6 +2325,8 @@ Overview,Prehľad,module,Magento_Catalog
 "Skip to the end of the images gallery","Preskočiť na koniec galérie obrázkov",module,Magento_Catalog
 "Skip to the beginning of the images gallery","Preskočiť na začiatok galérie obrázkov",module,Magento_Catalog
 Details,Podrobnosti,module,Magento_Catalog
+"Terms & Conditions","Zmluvné podmienky",module,Magento_CheckoutAgreements
+"Enable Terms and Conditions","Zapnúť Zmluvné podmienky",module,Magento_CheckoutAgreements
 "Maximum Number of Items to Display in Order Summary","Maximálny počet položiek na zobrazenie v Zhrnutie objednávky",module,Magento_Checkout
 "Quote Lifetime (days)","Životnosť košíku (dní)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","Po pridaní produktu presmerovať do nákupného košíka",module,Magento_Checkout
@@ -2312,6 +2352,11 @@ Payment,Platba,module,Magento_Checkout
 "Not yet calculated","Zatiaľ nevypočítané",module,Magento_Checkout
 "We received your order!","Dostali sme vašu objednávku!",module,Magento_Checkout
 "Thank you for your purchase!","Ďakujeme za váš nákup!",module,Magento_Checkout
+Contacts,Kontakty,module,Magento_Contact
+"Contact Us","Kontaktujte nás",module,Magento_Contact
+"Enable Contact Us","Povoliť kontaktujte nás",module,Magento_Contact
+"Email Sender","Odosielateľ emailu",module,Magento_Contact
+"Email Template","Šablóny emailov",module,Magento_Contact
 Currency,Mena,module,Magento_CurrencySymbol
 "All Customers","Všetci zákazníci",module,Magento_Customer
 "Now Online","Práve pripojený",module,Magento_Customer
