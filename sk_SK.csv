@@ -76,6 +76,7 @@ void,anulované,module,Magento_Authorizenet
 "Authorize Only","Len schváliť",module,Magento_Authorizenet
 "Authorize and Capture","Schváliť a získať",module,Magento_Authorizenet
 "Unable to get transaction details. Try again later.","Nemožno získať detaily transakcie. Skúste znova neskôr.",module,Magento_Authorizenet
+"Electronic payments save the trees.","Elektronické platby zachrániť stromy.",module,Magento_Authorizenet
 "Credit Card Type","Typ kreditnej karty",module,Magento_Authorizenet
 "Please Select","Prosím, vyberte",module,Magento_Authorizenet
 "Credit Card Number","Číslo kreditnej karty",module,Magento_Authorizenet
@@ -215,6 +216,7 @@ To,Do,module,Magento_Backend
 "Select All","Vybrať všetko",module,Magento_Backend
 "We couldn't find any records.","Nedá sa nájsť žiadny záznam.",module,Magento_Backend
 "Add New","Pridať nové",module,Magento_Backend
+"Invalid export type supplied for grid export block","Neplatný export typ pre mriežky vývoz blok",module,Magento_Backend
 "Please correct the column format and try again.","Opravte formát stĺpcov a skúste znova.",module,Magento_Backend
 "Please select items.","Prosím vyberte položky.",module,Magento_Backend
 Submit,Potvrdiť,module,Magento_Backend
@@ -273,6 +275,7 @@ System,Systém,module,Magento_Backend
 "Unable to delete the website. Please try again later.","Nie je možné odstrániť skupinu obchodov(website). Prosím, skúste znova neskôr.",module,Magento_Backend
 "The website does not exist.","Skupina obchodov(website) neexistuje.",module,Magento_Backend
 "Before modifying the website code please make sure it is not used in index.php.","Pred úpravou kódu skupiny obchodov(website) sa prosím uistite, že nie je používaný v index.php.",module,Magento_Backend
+"The store does not exist","Obchod neexistuje",module,Magento_Backend
 "Store view doesn't exist","Zobrazenie obchodu neexistuje",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","Pred úpravou zobrazenia obchodu sa prosím uistite, že nie je používaný v index.php.",module,Magento_Backend
 "All Stores","Všetky obchody",module,Magento_Backend
@@ -293,6 +296,7 @@ YTD,"Tento rok",module,Magento_Backend
 "Admin session lifetime must be greater than or equal to 60 seconds","Životnosť relácie v administrácii musí byť väčšia alebo rovná 60 sekúnd",module,Magento_Backend
 Order,Objednávka,module,Magento_Backend
 "Order #%1","Objednávka #%1",module,Magento_Backend
+"You need more permissions to access this.","Potrebujete ďalšie oprávnenia na prístup.",module,Magento_Backend
 "Welcome, please sign in","Vitajte, prosím prihláste sa",module,Magento_Backend
 Username,"Meno používateľa",module,Magento_Backend
 "user name","meno používateľa",module,Magento_Backend
@@ -305,6 +309,7 @@ password,heslo,module,Magento_Backend
 "Last Orders","Posledné objednávky",module,Magento_Backend
 "Last Search Terms","Posledné hľadané výrazy",module,Magento_Backend
 "Top Search Terms","Najvyhľadávanejšie výrazy",module,Magento_Backend
+"There are no search keywords.","Neexistujú žiadne kľúčové slová.",module,Magento_Backend
 "View Statistics For:","Zobrazenie štatistických údajov pre:",module,Magento_Backend
 "All Websites","Všetky skupiny obchodov(websites)",module,Magento_Backend
 "Reload Data","Obnoviť údaje",module,Magento_Backend
@@ -323,6 +328,7 @@ Minute,Minúta,module,Magento_Backend
 "JavaScript may be disabled in your browser.","JavaScript vo vašom prehliadači môže byť vypnutý.",module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.","Pre používanie tejto internetovej stránky musíte najprv povoliť JavaScript vo vašom prehliadači.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Toto je len vzorový obchod. Môžete prechádzať produkty a objednávať, ale objednávky nebudú spracované.",module,Magento_Backend
+"Report an Issue","Nahlásiť problém",module,Magento_Backend
 "Store View:","Pohľad obchodu:",module,Magento_Backend
 "Stores Configuration","Nastavenia obchodov",module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Potvrďte, zmenu objektíva. Všetky úpravý, ktoré ešte neboli uložené budú stratené.",module,Magento_Backend
@@ -411,6 +417,7 @@ Exclude,Vylúčiť,module,Magento_Backup
 "Create Backup","Vytvoriť zálohu",module,Magento_Backup
 Country,Krajina,module,Magento_Braintree
 "We can't initialize checkout.","Nepodarilo sa inicializovať proces nákupu.",module,Magento_Braintree
+Delete,Zmazať,module,Magento_Braintree
 "Percent Discount","Percentuálna zľava",module,Magento_Bundle
 "-- Select --","-- Vyberte --",module,Magento_Bundle
 Dynamic,Dynamické,module,Magento_Bundle
@@ -1229,6 +1236,7 @@ Checkout,Objednať,module,Magento_Checkout
 "Error message!","Chybové hlásenie!",module,Magento_Checkout
 Error!,Chyba!,module,Magento_Checkout
 Message,Správa,module,Magento_Checkout
+"Apply Discount Code","Použiť zľavový kód",module,Magento_Checkout
 Item,Položka,module,Magento_Checkout
 Price,Cena,module,Magento_Checkout
 Qty,Množstvo,module,Magento_Checkout
@@ -1523,6 +1531,7 @@ Male,Muž,module,Magento_Customer
 Female,Žena,module,Magento_Customer
 "Not Specified",Nešpecifikované,module,Magento_Customer
 "Thank you for registering with","Ďakujeme vám za registráciu na",module,Magento_Customer
+"Please enter new password.","Zadajte nové heslo.",module,Magento_Customer
 message,správa,module,Magento_Customer
 Exception,Výnimka,module,Magento_Customer
 "Exception message","Správa výnimky",module,Magento_Customer
@@ -1544,6 +1553,7 @@ Customer,Zákazník,module,Magento_Customer
 "Sales Statistics","Predajné statistiky",module,Magento_Customer
 "Lifetime Sales","Celkový obrat",module,Magento_Customer
 "Average Sale","Priemerný predaj",module,Magento_Customer
+"Change Password","Zmeniť heslo",module,Magento_Customer
 "Change Shipping Address","Zmeniť dodaciu adresu",module,Magento_Customer
 "You have no default shipping address in your address book.","Vo vašom adresári nemáte žiadnu predvolenú dodaciu adresu.",module,Magento_Customer
 "Additional Address Entries","Ďalšie položky adresy",module,Magento_Customer
@@ -1681,10 +1691,14 @@ Dynamic,Dynamické,module,Magento_GoogleAdwords
 "Indexer Management","Riadenie indexovania",module,Magento_Indexer
 Integrations,Prepojenia,module,Magento_Integration
 No,Nie,module,Magento_LayeredNavigation
+item,položka,module,Magento_LayeredNavigation
+items,položky,module,Magento_LayeredNavigation
 Partners,Partneri,module,Magento_Marketplace
 Synchronize,Synchronizovať,module,Magento_MediaStorage
 "To see product price, add this item to your cart. You can always remove it later.","Pre zobrazenie ceny vložte do košíka. Neskôr to môžete z neho odstrániť.",module,Magento_Msrp
 "Change Billing Address","Zmena fakturačnej adresy",module,Magento_Multishipping
+Item,Položka,module,Magento_Multishipping
+Items,Položky,module,Magento_Multishipping
 "Delete Selected Problems","Odstrániť vybrané problémy",module,Magento_Newsletter
 "Unsubscribe Selected","Odhlásiť sa z vybratých",module,Magento_Newsletter
 Back,Späť,module,Magento_Newsletter
@@ -1701,10 +1715,13 @@ Message,Správa,module,Magento_Newsletter
 Subscribe,"Prihlásiť sa k odberu",module,Magento_Newsletter
 "Make Check payable to:","Vyplatiť šek:",module,Magento_OfflinePayments
 Country,Krajina,module,Magento_OfflineShipping
+"Per Item","Za položku",module,Magento_OfflineShipping
 "We cannot retrieve the payment method model object.","Nemôžeme získať model objektu platobnej metódy.",module,Magento_Payment
 "Billing Agreements","Súhlasy fakturácie",module,Magento_Paypal
+"Order Total",Celkom,module,Magento_Paypal
 "Items in Your Shopping Cart","Položky vo Vašom košíku",module,Magento_Paypal
 "Edit Shopping Cart","Upraviť košík",module,Magento_Paypal
+Item,Položka,module,Magento_Paypal
 "Not you?","Nie ste to vy?",module,Magento_Persistent
 "Unable to save address. Please check input data.","Nemožno uložiť adresu. Skontrolujte vstupné údaje.",module,Magento_Quote
 "Cart %1 doesn't contain products","Košík %1 neobsahuje produkty",module,Magento_Quote
@@ -1715,16 +1732,27 @@ Country,Krajina,module,Magento_OfflineShipping
 Shipping,Poštovné,module,Magento_Quote
 Subtotal,Medzisúčet,module,Magento_Quote
 "Cart %1 doesn't contain item  %2","Košík %1 neobsahuje produkt %2",module,Magento_Quote
+Items,Položky,module,Magento_Reports
+"Items in Cart","Položiek v košíku",module,Magento_Reports
 "Shopping Cart","Nákupný košík",module,Magento_Reports
 "Page not found.","Stránka nebola nájdená.",module,Magento_Rss
 Apply,Použiť,module,Magento_Rule
 "Cart Price Rules","Cenové pravidlá košíka",module,Magento_SalesRule
 "Shopping Cart","Nákupný košík",module,Magento_Sales
 "We can't add this item to your shopping cart right now.","Táto položka sa nedá momentálne pridať do vášho košíka.",module,Magento_Sales
+"Order Total",Celkom,module,Magento_Sales
+Item,Položka,module,Magento_Sales
+"No items","Žiadne položky",module,Magento_Sales
+"No Items","Žiadne položky",module,Magento_Sales
 "Invoice History","Fakturačná história",module,Magento_Sales
+"Items Invoiced","Fakturované položky",module,Magento_Sales
+Items,Položky,module,Magento_Sales
 "Search Term","Hľadaný výraz",module,Magento_Search
 "We can't find a search term to delete.","Nemôžeme nájsť hľadaný výraz pre zmazanie.",module,Magento_Search
 "Your search query can't be longer than %1, so we shortened your query.","Hľadaný reťazec nemôže mať viac znakov ako %1, takže sme skrátili Váš reťazec.",module,Magento_Search
+"Search entire store here...","Hľadať celý obchod tu...",module,Magento_Search
+"Order Total",Celkom,module,Magento_Shipping
+"contact us","kontaktujte nás",module,Magento_Shipping
 "Save & Generate","Uložiť a vygenerovať",module,Magento_Sitemap
 "Admin is a required field in the each row","Admin je povinné pole v každom riadku",module,Magento_Swatches
 Back,Späť,module,Magento_Theme
@@ -1745,6 +1773,8 @@ Next,Ďalej,module,Magento_Ui
 "Add Tax","Pridať daň",module,Magento_Weee
 "Can't save description %1","Popis %1 sa nedá uložiť",module,Magento_Wishlist
 "Can't update wish list","Nie je možné aktualizovať zoznam prianí",module,Magento_Wishlist
+"1 item","1 položka",module,Magento_Wishlist
+"Now Shopping by","Filtrovať podľa",theme,frontend/Magento/luma
 Previous,Predchádzajúca,theme,frontend/Magento/luma
 Remove,Odstrániť,theme,frontend/Magento/luma
 "Remove This Item","Odstrániť túto položku",theme,frontend/Magento/luma
@@ -1778,8 +1808,9 @@ Login,"Prihlásiť sa",module,Magento_Checkout
 "See Details","Pozri detaily",module,Magento_Checkout
 "Options Details","Podrobnosti možnosti",module,Magento_Checkout
 Remove,Odstrániť,module,Magento_Checkout
-"Cart Subtotal","Medzisúčet košíku",module,Magento_Checkout
+"Cart Subtotal","Medzisúčet košíka",module,Magento_Checkout
 "Payment Information","Informácie o platbe",module,Magento_Checkout
+"View and Edit Cart","Zobraziť košík",module,Magento_Checkout
 "Contact Form","Kontaktný formulár",module,Magento_Contact
 "Welcome to %store_name.","Vitajte na %store_name.",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Pre prihlásenie sa na naších stránkach, zadajte údaje v procesu objednávky alebo na stránke <a href=""%customer_url"">Môj účet</a>:",module,Magento_Customer
@@ -1812,6 +1843,7 @@ Password:,Heslo:,module,Magento_Customer
 "Check out faster","Rýchlejší nákup",module,Magento_Customer
 "Email Address","E-mailová adresa",module,Magento_Customer
 "Thank you, %store_name","Ďakujeme Vám, %store_name",module,Magento_Email
+"Apply Discount Code","Použiť zľavový kód",module,Magento_SalesRule
 "Changes have been made to this section that have not been saved.","V tejto časti boli vykonané zmeny ktoré ešte neboli uložené.",module,Magento_Ui
 Assign,Priradiť,module,Magento_Ui
 Options,Možnosti,module,Magento_Ui
@@ -1827,12 +1859,12 @@ Password:,Heslo:,theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Zabudli ste heslo k vášmu účtu? Kliknutím na následujúci odkaz ho <a href=""%reset_url"">resetujete</a>.",theme,frontend/Magento/luma
 "When you sign in to your account, you will be able to:","Po prihlásení do svojho účtu, budete môcť:",theme,frontend/Magento/luma
 "Quick Checkout","Objednať bez registrácie",theme,frontend/Magento/luma
-"Proceed through checkout faster","Rýchľejšie objednanie",theme,frontend/Magento/luma
+"Proceed through checkout faster","Rýchlejšie objednanie",theme,frontend/Magento/luma
 "Order Status","Stav objednávky",theme,frontend/Magento/luma
-"Check the status of orders","Skontrolovať stavy objednáviek",theme,frontend/Magento/luma
+"Check the status of orders","Skontrolovať stavy objednávok",theme,frontend/Magento/luma
 "Manage Addresses","Upraviť adresy",theme,frontend/Magento/luma
 "Store alternative addresses","Uloženie alternatívnych adries",theme,frontend/Magento/luma
-"For shipping to multiple family members and friends","Pre doručenie dalším členom rodiny a priateľom",theme,frontend/Magento/luma
+"For shipping to multiple family members and friends","Pre doručenie ďalším členom rodiny a priateľom",theme,frontend/Magento/luma
 "Order History","História objednávok",theme,frontend/Magento/luma
 "View past orders","Zobraziť staršie objednávky",theme,frontend/Magento/luma
 Footer,Pätička,theme,frontend/Magento/luma
@@ -1848,13 +1880,19 @@ Footer,Pätička,theme,frontend/Magento/luma
 "Shipping Info","Doručovacie informácie",theme,frontend/Magento/luma
 "Payment Method","Spôsob platby",theme,frontend/Magento/luma
 "Shipping Method","Spôsob dopravy",theme,frontend/Magento/luma
-"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","U vašej objednávky #%increment_id bol aktualizovaný stav na <strong>%order_status</strong>.",theme,frontend/Magento/luma
+"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Vaša objednávka #%increment_id bola aktualizovaná na stav <strong>%order_status</strong>.",theme,frontend/Magento/luma
+"Invoice for your %store_name order","Faktúra za Vašu %store_name objednávku",theme,frontend/Magento/luma
 "Your Invoice #%invoice_id for Order #%order_id","Vaša faktúra #%invoice_id pre objednávku #%order_id",theme,frontend/Magento/luma
+"Update to your %store_name invoice","Aktualizácia Vašej %store_name faktúry",theme,frontend/Magento/luma
+"Your %store_name order confirmation","Potvrdenie Vašej %store_name objednávky",theme,frontend/Magento/luma
 "Once your package ships we will send you a tracking number.","Akonáhle Váš balík odošleme, zašleme Vám sledovacie číslo.",theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","Vaša objednávka <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","Vytvorená <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
+"Update to your %store_name order","Aktualizácia Vašej %store_name objednávky",theme,frontend/Magento/luma
+"Your %store_name order has shipped","Vaša %store_name objednávka bola odoslaná",theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.","Nižšie je Vaša potvrdenie o odoslaní. Děkuji za vaše podnikanie.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","Odosolanie #%shipment_id pre objednávku #%order_id",theme,frontend/Magento/luma
+"Update to your %store_name shipment","Aktualizujte vašu zásielku %store_name",theme,frontend/Magento/luma
 "Sorry, but something went wrong. Please contact the seller.","Ľutujeme, niečo sa pokazilo. Kontaktujte predajcu.",module,Magento_Authorizenet
 "We could not detect a size.","Nepodarilo sa zistiť veľkosť.",module,Magento_Backend
 "We don't recognize or support this file extension type.","Nerozpoznaný alebo nepodporovaný typ súboru.",module,Magento_Backend
@@ -1988,6 +2026,7 @@ Debug,Ladenie,module,Magento_Authorizenet
 "Sort Order","Zoradiť podľa",module,Magento_Authorizenet
 "Allow everything","Povoliť všetko",module,Magento_Backend
 "Global Search","Globálne vyhľadávanie",module,Magento_Backend
+"SEO & Search","SEO a vyhľadávanie",module,Magento_Backend
 "User Content","Užívateľský obsah",module,Magento_Backend
 Content,Obsah,module,Magento_Backend
 Elements,Prvky,module,Magento_Backend
@@ -2141,6 +2180,7 @@ Forms,Formuláre,module,Magento_Captcha
 "If 0 is specified, CAPTCHA on the Login form will be always available.","Ak je zadaná 0, CAPTCHA na formulári prihlásiť bude vždy k dispozícii.",module,Magento_Captcha
 "CAPTCHA Timeout (minutes)","Časový limit pre CAPTCHA (minút)",module,Magento_Captcha
 "Number of Symbols","Počet symbolov",module,Magento_Captcha
+"Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Uveďte najviac 8 znakov. Rozsah povolený (napr. 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","Symboly použité v CAPTCHA",module,Magento_Captcha
 "Case Sensitive","Rozlišovať malé a veľké písmená",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Povoliť CAPTCHA v obchode",module,Magento_Captcha
@@ -2372,6 +2412,7 @@ Currency,Mena,module,Magento_CurrencySymbol
 "Last Activity","Posledná aktivita",module,Magento_Customer
 "Password forgotten","Zabudnuté heslo",module,Magento_Customer
 "You are signed out","Ste odhlásení",module,Magento_Customer
+Password,Heslo,module,Magento_Dhl
 Communications,Komunikácie,module,Magento_Email
 "No Templates Found","Nenašli sa žiadne šablóny",module,Magento_Email
 Added,Pridané,module,Magento_Email
@@ -2389,8 +2430,15 @@ Action,Akcia,module,Magento_Email
 "Email template chosen based on theme fallback, when the ""Default"" option is selected.","Vybratá šablóna e-mailu v závislosti na záložnom motíve ak je vybratá možnosť ""Predvolený"".",module,Magento_Email
 "Header Template","Šablóna hlavičky stránky",module,Magento_Email
 "Footer Template","Šablóna pätičky stránky",module,Magento_Email
+Password,Heslo,module,Magento_Fedex
 Unsubscribed,"Odhlásiť sa",module,Magento_Newsletter
+"Minimum Order Total","Minimálna suma objednávky",module,Magento_OfflinePayments
+"Maximum Order Total","Maximálna suma objednávky",module,Magento_OfflinePayments
 "Display on Shopping Cart","Zobraziť v košíku",module,Magento_Paypal
+Login,"Prihlásiť sa",module,Magento_Paypal
+Password,Heslo,module,Magento_Paypal
+"Order Total",Celkom,module,Magento_Reports
+"Order Total",Celkom,module,Magento_Tax
 "Log JS Errors to Session Storage","Zaznamenať chyby JS aby úložiska Sesssion",module,Magento_Ui
 "Log JS Errors to Session Storage Key","Zaznamenať chyby JS aby kľuča úložiska Sesssion",module,Magento_Ui
 Action,Akcia,module,Magento_Ui
