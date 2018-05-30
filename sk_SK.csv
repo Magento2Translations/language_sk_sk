@@ -227,6 +227,7 @@ System,Systém,module,Magento_Backend
 "This website cannot be deleted.","Túto skupinu obchodov(website) nie je možné zmazať.",module,Magento_Backend
 "Unable to delete website. Please, try again later.","Nie je možné odstrániť webovú stránku. Prosím, skúste znova neskôr.",module,Magento_Backend
 "The website does not exist.","Skupina obchodov(website) neexistuje.",module,Magento_Backend
+"The store does not exist","Obchod neexistuje",module,Magento_Backend
 "Store view doesn't exist","Zobrazenie obchodu neexistuje",module,Magento_Backend
 "Last 24 Hours","Posledných 24 hodín",module,Magento_Backend
 "Last 7 Days","Posledných 7 dní",module,Magento_Backend
@@ -248,6 +249,7 @@ password,heslo,module,Magento_Backend
 "Last Orders","Posledné objednávky",module,Magento_Backend
 "Last Search Terms","Posledné hľadané výrazy",module,Magento_Backend
 "Top Search Terms","Najvyhľadávanejšie výrazy",module,Magento_Backend
+"There are no search keywords.","Neexistujú žiadne kľúčové slová.",module,Magento_Backend
 "View Statistics For:","Zobrazenie štatistických údajov pre:",module,Magento_Backend
 "All Websites","Všetky skupiny obchodov(websites)",module,Magento_Backend
 "Reload Data","Obnoviť údaje",module,Magento_Backend
@@ -334,8 +336,39 @@ Country,Krajina,module,Magento_Braintree
 "Stored Card","Uložená karta",module,Magento_Braintree
 "Credit card successfully added","Platobná karta bola úspešne pridaná",module,Magento_Braintree
 "Delete Credit Card","Odstránit platobnú kartu",module,Magento_Braintree
+"Credit card successfully deleted","Platobná karta bola úspešne odstránená",module,Magento_Braintree
 "Edit Credit Card","Upraviť platobnú kartu",module,Magento_Braintree
 "My Credit Cards","Moje platobné karty",module,Magento_Braintree
+"There was error during saving card data","Nastala chyba počas ukladania údajov karty",module,Magento_Braintree
+"Transaction declined by gateway: Check card details or try another card","Transakcia zamietnutá bránou (by Gateway): Skontrolujte údaje karty alebo skúsiť inú kartu",module,Magento_Braintree
+"Credit card type is not allowed for your country.","Typ platobnej karty nie je povolený pre vašu krajinu.",module,Magento_Braintree
+"Credit card type is not allowed for this payment method.","Typ platobnej karty nie je povolený pre tento spôsob platby.",module,Magento_Braintree
+"Selected payment type is not allowed for billing country.","Vybratý druh platby nie je povolený pre krajinu príjemcu platby.",module,Magento_Braintree
+"Please try again later","Prosím, skúste to znovu neskôr",module,Magento_Braintree
+"Invalid Customer ID provided","Nesprávne ID zákazníka",module,Magento_Braintree
+"Payment Information","Informácie o platbe",module,Magento_Braintree
+"Add new card","Pridať novú kartu",module,Magento_Braintree
+"Please Select","Prosím vyberte",module,Magento_Braintree
+"Save this card for future use","Uložiť túto kartu pre budúce použitie",module,Magento_Braintree
+"Please confirm that you want to delete this credit card","Potvrďte, že chcete odstrániť túto platobnú kartu",module,Magento_Braintree
+"Cardholder Name","Meno majiteľa karty",module,Magento_Braintree
+Delete,Zmazať,module,Magento_Braintree
+Back,Späť,module,Magento_Braintree
+"* Required Fields","* Povinné políčka",module,Magento_Braintree
+"Make Default","Nastaviť ako predvolené",module,Magento_Braintree
+"Billing Address","Adresa pre fakturáciu",module,Magento_Braintree
+"First Name",Meno,module,Magento_Braintree
+"Last Name",Priezvisko,module,Magento_Braintree
+Company,Spoločnosť,module,Magento_Braintree
+City,Mesto,module,Magento_Braintree
+State/Province,Kraj/okres,module,Magento_Braintree
+"Please select region, state or province","Vyberte prosím región, štát alebo okres",module,Magento_Braintree
+Submit,Potvrdiť,module,Magento_Braintree
+"Add Credit Card","Pridať platobnú kartu",module,Magento_Braintree
+"Is Default","Je predvolené",module,Magento_Braintree
+Yes,Áno,module,Magento_Braintree
+No,Nie,module,Magento_Braintree
+Edit,Upraviť,module,Magento_Braintree
 "Percent Discount","Percentuálna zľava",module,Magento_Bundle
 "-- Select --","-- Vyberte --",module,Magento_Bundle
 Dynamic,Dynamické,module,Magento_Bundle
@@ -1080,6 +1113,7 @@ Customer,Zákazník,module,Magento_Customer
 "Sales Statistics","Predajné statistiky",module,Magento_Customer
 "Lifetime Sales","Celkový obrat",module,Magento_Customer
 "Average Sale","Priemerný predaj",module,Magento_Customer
+"Change Password","Zmeniť heslo",module,Magento_Customer
 "Change Shipping Address","Zmeniť dodaciu adresu",module,Magento_Customer
 "You have no default shipping address in your address book.","Vo vašom adresári nemáte žiadnu predvolenú dodaciu adresu.",module,Magento_Customer
 "Additional Address Entries","Ďalšie položky adresy",module,Magento_Customer
@@ -1182,6 +1216,7 @@ Dynamic,Dynamické,module,Magento_GoogleAdwords
 Integrations,Prepojenia,module,Magento_Integration
 No,Nie,module,Magento_LayeredNavigation
 "Change Billing Address","Zmena fakturačnej adresy",module,Magento_Multishipping
+Items,Položky,module,Magento_Multishipping
 "Delete Selected Problems","Odstrániť vybrané problémy",module,Magento_Newsletter
 "Unsubscribe Selected","Odhlásiť sa z vybratých",module,Magento_Newsletter
 Back,Späť,module,Magento_Newsletter
@@ -1197,8 +1232,10 @@ Message,Správa,module,Magento_Newsletter
 Subscribe,"Prihlásiť sa k odberu",module,Magento_Newsletter
 "Make Check payable to:","Vyplatiť šek:",module,Magento_OfflinePayments
 Country,Krajina,module,Magento_OfflineShipping
+"Per Item","Za položku",module,Magento_OfflineShipping
 "We cannot retrieve the payment method model object.","Nemôžeme získať model objektu platobnej metódy.",module,Magento_Payment
 "Billing Agreements","Súhlasy fakturácie",module,Magento_Paypal
+"Order Total",Celkom,module,Magento_Paypal
 "Items in Your Shopping Cart","Položky vo Vašom košíku",module,Magento_Paypal
 "Edit Shopping Cart","Upraviť košík",module,Magento_Paypal
 "Grand Total","Celkový súčet",module,Magento_Quote
@@ -1206,13 +1243,22 @@ Country,Krajina,module,Magento_OfflineShipping
 "Shipping & Handling","Poštovné a balné",module,Magento_Quote
 Shipping,Poštovné,module,Magento_Quote
 Subtotal,Medzisúčet,module,Magento_Quote
+Items,Položky,module,Magento_Reports
+"Items in Cart","Položiek v košíku",module,Magento_Reports
 "Shopping Cart","Nákupný košík",module,Magento_Reports
 Apply,Použiť,module,Magento_Rule
 "Cart Price Rules","Cenové pravidlá košíka",module,Magento_SalesRule
 "Shopping Cart","Nákupný košík",module,Magento_Sales
+"Order Total",Celkom,module,Magento_Sales
+Item,Položka,module,Magento_Sales
+"No items","Žiadne položky",module,Magento_Sales
+"No Items","Žiadne položky",module,Magento_Sales
 "Invoice History","Fakturačná história",module,Magento_Sales
+"Items Invoiced","Fakturované položky",module,Magento_Sales
+"contact us","kontaktujte nás",module,Magento_Shipping
 "Save & Generate","Uložiť a vygenerovať",module,Magento_Sitemap
 "Add Tax","Pridať daň",module,Magento_Weee
+"1 item","1 položka",module,Magento_Wishlist
 "Shop By","Nakupovať podľa",theme,frontend/Magento/luma
 Total:,Celkom:,module,Magento_Checkout
 "Add Products to New Option","Pridať produkty k novej možnosti",module,Magento_Bundle
@@ -1396,6 +1442,7 @@ Forms,Formuláre,module,Magento_Captcha
 "If 0 is specified, CAPTCHA on the Login form will be always available.","Ak je zadaná 0, CAPTCHA na formulári prihlásiť bude vždy k dispozícii.",module,Magento_Captcha
 "CAPTCHA Timeout (minutes)","Časový limit pre CAPTCHA (minút)",module,Magento_Captcha
 "Number of Symbols","Počet symbolov",module,Magento_Captcha
+"Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Uveďte najviac 8 znakov. Rozsah povolený (napr. 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","Symboly použité v CAPTCHA",module,Magento_Captcha
 "Case Sensitive","Rozlišovať malé a veľké písmená",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Povoliť CAPTCHA v obchode",module,Magento_Captcha
@@ -1518,7 +1565,7 @@ Details,Podrobnosti,module,Magento_Catalog
 "Send Payment Failed Email Copy To","Odoslať kopiu Emailu pre neprevedenú platbu na",module,Magento_Checkout
 "Separate by "","".","Oddelte čiarkou "","".",module,Magento_Checkout
 "Send Payment Failed Email Copy Method","Odoslať kopiu Emailu pre neprevedenú platbu metódou",module,Magento_Checkout
-"Cart Subtotal","Medzisúčet košíku",module,Magento_Checkout
+"Cart Subtotal","Medzisúčet košíka",module,Magento_Checkout
 "Not yet calculated","Zatiaľ nevypočítané",module,Magento_Checkout
 "Thank you for your purchase!","Ďakujeme za váš nákup!",module,Magento_Checkout
 Contacts,Kontakty,module,Magento_Contact
@@ -1542,13 +1589,19 @@ Contacts,Kontakty,module,Magento_Contact
 "Last Name",Priezvisko,module,Magento_Customer
 "Last Activity","Posledná aktivita",module,Magento_Customer
 "Password forgotten","Zabudnuté heslo",module,Magento_Customer
+Password,Heslo,module,Magento_Dhl
 "No Templates Found","Nenašli sa žiadne šablóny",module,Magento_Email
 Added,Pridané,module,Magento_Email
 Updated,Aktualizované,module,Magento_Email
 Subject,Predmet,module,Magento_Email
 "Template Type","Typ šablóny",module,Magento_Email
 Action,Akcia,module,Magento_Email
+Password,Heslo,module,Magento_Fedex
 Unsubscribed,"Odhlásiť sa",module,Magento_Newsletter
+"Minimum Order Total","Minimálna suma objednávky",module,Magento_OfflinePayments
+"Maximum Order Total","Maximálna suma objednávky",module,Magento_OfflinePayments
+Login,"Prihlásiť sa",module,Magento_Paypal
+Password,Heslo,module,Magento_Paypal
 "Log JS Errors to Session Storage","Zaznamenať chyby JS aby úložiska Sesssion",module,Magento_Ui
 "Log JS Errors to Session Storage Key","Zaznamenať chyby JS aby kľuča úložiska Sesssion",module,Magento_Ui
 Summary,Zhrnutie,theme,frontend/Magento/blank
