@@ -2365,6 +2365,8 @@ Overview,Prehľad,module,Magento_Catalog
 "Skip to the end of the images gallery","Preskočiť na koniec galérie obrázkov",module,Magento_Catalog
 "Skip to the beginning of the images gallery","Preskočiť na začiatok galérie obrázkov",module,Magento_Catalog
 Details,Podrobnosti,module,Magento_Catalog
+"Add To Cart","Pridať do košíka",module,Magento_Catalog
+"Add To Compare","Pridať k porovnaniu",module,Magento_Catalog
 "Terms & Conditions","Zmluvné podmienky",module,Magento_CheckoutAgreements
 "Enable Terms and Conditions","Zapnúť Zmluvné podmienky",module,Magento_CheckoutAgreements
 "Maximum Number of Items to Display in Order Summary","Maximálny počet položiek na zobrazenie v Zhrnutie objednávky",module,Magento_Checkout
