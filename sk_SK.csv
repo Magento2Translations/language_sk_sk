@@ -25,6 +25,7 @@ major,hlavné,module,Magento_AdminNotification
 minor,vedlajšie,module,Magento_AdminNotification
 notice,oznámenie,module,Magento_AdminNotification
 "Wrong message type","Nesprávny typ správy",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","Jeden alebo viac typov dočastných zostáv sú neaktuálne: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Prosím, choďte na <a href=""%1"">Správa dočastných zostáv</a> a aktualizujte.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Dokončená synchronizácia skladov médií.",module,Magento_AdminNotification
 "Close popup","Zavrieť okno",module,Magento_AdminNotification
@@ -183,6 +184,7 @@ To,Do,module,Magento_Backend
 "Date selector","Výber dátumu",module,Magento_Backend
 "[ deleted ]","[ zmazané ]",module,Magento_Backend
 "Select All","Vybrať všetko",module,Magento_Backend
+" [deleted]"," [zmazané]",module,Magento_Backend
 "Add New","Pridať nové",module,Magento_Backend
 "Please correct the column format and try again.","Opravte formát stĺpcov a skúste znova.",module,Magento_Backend
 "Please select items.","Prosím vyberte položky.",module,Magento_Backend
@@ -229,6 +231,7 @@ System,Systém,module,Magento_Backend
 "The website does not exist.","Skupina obchodov(website) neexistuje.",module,Magento_Backend
 "The store does not exist","Obchod neexistuje",module,Magento_Backend
 "Store view doesn't exist","Zobrazenie obchodu neexistuje",module,Magento_Backend
+"New ","Nový ",module,Magento_Backend
 "Last 24 Hours","Posledných 24 hodín",module,Magento_Backend
 "Last 7 Days","Posledných 7 dní",module,Magento_Backend
 "Current Month","Aktuálny mesiac",module,Magento_Backend
@@ -341,6 +344,7 @@ Country,Krajina,module,Magento_Braintree
 "My Credit Cards","Moje platobné karty",module,Magento_Braintree
 "There was error during saving card data","Nastala chyba počas ukladania údajov karty",module,Magento_Braintree
 "Transaction declined by gateway: Check card details or try another card","Transakcia zamietnutá bránou (by Gateway): Skontrolujte údaje karty alebo skúsiť inú kartu",module,Magento_Braintree
+"Transaction declined: ","Transakcia odmietnutá: ",module,Magento_Braintree
 "Credit card type is not allowed for your country.","Typ platobnej karty nie je povolený pre vašu krajinu.",module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","Typ platobnej karty nie je povolený pre tento spôsob platby.",module,Magento_Braintree
 "Selected payment type is not allowed for billing country.","Vybratý druh platby nie je povolený pre krajinu príjemcu platby.",module,Magento_Braintree
@@ -832,6 +836,7 @@ Role,Úloha,module,Magento_Catalog
 "Unselect All","Zrušiť výber všetkých",module,Magento_Catalog
 "Select Visible","Vybrať viditeľné",module,Magento_Catalog
 "Unselect Visible","Zrušiť výber viditeľných",module,Magento_Catalog
+"Buy %1 for: ","Kúpiť %1 za: ",module,Magento_Catalog
 "Shop By","Nakupovať podľa",module,Magento_Catalog
 "Shopping Options","Nákupné možnosti",module,Magento_Catalog
 "Compare Products","Porovnať produkty",module,Magento_Catalog
@@ -936,7 +941,7 @@ Loading...,Načítávanie...,module,Magento_Checkout
 "Custom Design","Vlastný dizajn",module,Magento_Cms
 "Custom Design From","Vlastný dizajn od",module,Magento_Cms
 "Custom Design To","Vlastný dizajn do",module,Magento_Cms
-"Custom Layout Update XML","Úprava XML rozloženia",module,Magento_Cms
+"Custom Layout Update XML","Úprava XML rozloženia ",module,Magento_Cms
 "Relative to Web Site Base URL","Vzťahuje sa k základnej adrese URL webu",module,Magento_Cms
 "Page Status","Stav stránky",module,Magento_Cms
 "Meta Data","Meta dáta",module,Magento_Cms
@@ -1259,7 +1264,6 @@ Item,Položka,module,Magento_Sales
 "Save & Generate","Uložiť a vygenerovať",module,Magento_Sitemap
 "Add Tax","Pridať daň",module,Magento_Weee
 "1 item","1 položka",module,Magento_Wishlist
-"Shop By","Nakupovať podľa",theme,frontend/Magento/luma
 Total:,Celkom:,module,Magento_Checkout
 "Add Products to New Option","Pridať produkty k novej možnosti",module,Magento_Bundle
 "Add Products to Option ""%1""","Pridať produkty k možnosti ""%1""",module,Magento_Bundle
@@ -1315,6 +1319,11 @@ Advanced,Rozšírené,module,Magento_Backend
 Design,Dizajn,module,Magento_Backend
 "Design Theme","Dizajn Motívu",module,Magento_Backend
 "User-Agent Exceptions","User-Agent výnimky",module,Magento_Backend
+"
+                        Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>
+                    ","
+                         Vyhľadávacie reťazce sú normálne reťazce alebo regulárne výrazi (PCRE). Sú porovnávané v rovnakom poradí, ako boli zadanél. Príklady:<br><span style=""font-family:monospace"">Firefox<br>/^mozilla/i</span>
+                    ",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","Vyhľadať reťazec v hlavičke user-agent klienta, a prejsť na špecifický motív dizajnu k danému prehľadači.",module,Magento_Backend
 Pagination,Stránkovanie,module,Magento_Backend
 "Pagination Frame","Rám stránkovania",module,Magento_Backend
@@ -1394,6 +1403,11 @@ Security,Zabezpečenie,module,Magento_Backend
 "Enable Charts","Povoliť grafy",module,Magento_Backend
 "Url Options","Nastavenia URL",module,Magento_Backend
 "Add Store Code to Urls","Pridať kód obchodu do URL",module,Magento_Backend
+"
+                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
+                    ","
+<strong style=""color:red""> Upozornenie!</strong> Ak používate kód obchodu v URL, v niektorých prípadoch systém nepracuje správne. Napr. ak URL bez kódu obchodu sú zadané u služby tretých stran ako je PayPal atď.
+                    ",module,Magento_Backend
 "Auto-redirect to Base URL","Automatické presmerovanie na základnú URL",module,Magento_Backend
 "Search Engine Optimization","Optimalizácia pre vyhľadávače",module,Magento_Backend
 "Use Web Server Rewrites","Použiť prepisy adries (rewrite)",module,Magento_Backend
@@ -1444,6 +1458,11 @@ Forms,Formuláre,module,Magento_Captcha
 "Number of Symbols","Počet symbolov",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Uveďte najviac 8 znakov. Rozsah povolený (napr. 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","Symboly použité v CAPTCHA",module,Magento_Captcha
+"
+                        Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.
+                    ","
+Použite prosím iba písmená (a-z resp. A-Z) alebo čísla (0-9) v tomto políčku. Medzery ani iné znaky niesú povolené. <br />Podobné znaky (napr. ""i"", ""l"", ""1"") navyšujú pravedpodonsť omylu zákazníka.
+                    ",module,Magento_Captcha
 "Case Sensitive","Rozlišovať malé a veľké písmená",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Povoliť CAPTCHA v obchode",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Ak to povolíte, formuláre ""Vytvoriť užívateľa"" a ""Zabudnuté heslo"" budú vždy vyžadovať CAPTCHAu.",module,Magento_Captcha
@@ -1455,6 +1474,11 @@ Inventory,Inventár,module,Magento_CatalogInventory
 "Products will still be shown by direct product URLs.","Výrobok bude stále dostupný zadaním priamej URL adresy.",module,Magento_CatalogInventory
 "Display products availability in stock on Storefront.","Zobraziť dostupnosť produktov na sklade v obchode.",module,Magento_CatalogInventory
 "Product Stock Options","Možnosti zásoby produktu",module,Magento_CatalogInventory
+"
+                    Please note that these settings apply to individual items in the cart, not to the entire cart.
+                ","
+                   Vezmite prosím na vedomie, že tieto nastavenia sa vzťahujú na jednotlivé položky v košíku, nie na celý košík.
+                ",module,Magento_CatalogInventory
 "Manage Stock","Správa zásob",module,Magento_CatalogInventory
 Backorders,Do-objednávky,module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","Maximálne množstvo povolené v nákupnom košíku",module,Magento_CatalogInventory
@@ -1604,4 +1628,3 @@ Login,"Prihlásiť sa",module,Magento_Paypal
 Password,Heslo,module,Magento_Paypal
 "Log JS Errors to Session Storage","Zaznamenať chyby JS aby úložiska Sesssion",module,Magento_Ui
 "Log JS Errors to Session Storage Key","Zaznamenať chyby JS aby kľuča úložiska Sesssion",module,Magento_Ui
-Summary,Zhrnutie,theme,frontend/Magento/blank
